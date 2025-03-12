@@ -1,13 +1,11 @@
 /*Google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 
-/* CSS Variables*/
-
 /* CSS Variables */
 :root {
-    --primary-font: "Lato", sans-serif;
-    --secondary-font: "Oswald", cursive;
-    --primary-color: #fd5923; /* dark orange */
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #3a2620; /* dark brown */
     --secondary-color: #aa9581; /* light brown */
     --highlight-color: #416a8e; /* blue */
     --highlight-color-light: #7a9fc2; /* light blue */
@@ -30,13 +28,24 @@ h3 {
     color: var(--highlight-color);
 }
 
-/*Grid visualization CSS for testing*/
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
+/* grid visualisation CSS for testing */
+/*
 .container,
-.row{
+.row {
     border: 2px solid black;
 }
 
-.col-12{
+.col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+} */
