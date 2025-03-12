@@ -1,7 +1,31 @@
 /*Google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 
-body{font-family: "Roboto", sans-serif;
-    color: red;}
+/* CSS Variables*/
 
-    h1{font-family: "Oswald", cursive;}
+/* CSS Variables */
+:root {
+    --primary-font: "Lato", sans-serif;
+    --secondary-font: "Oswald", cursive;
+    --primary-color: #fd5923; /* dark orange */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
+}
+
+/* Global styles */
+
+body {
+    font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
+}
