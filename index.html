@@ -1,27 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Potatoe | Home</title>
 
     <!--Bootstrap 5 CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
-     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!--Custom CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    <h1>Home Page <i class="fa-solid fa-star"></i></h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+
+<!--Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
+<body class="d-flex flex-column min-vh-100">
+    <!--Navigation-->
+    <div>Navigation</div>
+
+    <!--Header with carousel-->
+    <header class="container">
+        <div class="row">
+            <div class="col-12 col-xl-6">Potatoe intro tex section</div>
+            <div class="col-12 col-xl-6">Carousel</div>
+        </div>
+    </header>
+
+        <!--Main element to hold all key section of the home page. It is not part of the grid structure-->
+        <main>
+            <!--History section-->
+            <section class="container">
+                <div class="row">
+                    <div class="col-12">History section heading</div>
+                    <div class="col-12 col-md-6 col-xl-3">Origins</div>
+                    <div class="col-12 col-md-6 col-xl-3">Andes</div>
+                    <div class="col-12 col-md-6 col-xl-3">America</div>
+                    <div class="col-12 col-md-6 col-xl-3">World</div>
+                </div>
+            </section>
+        </main>
+
+    <!--Footer/ contact section-->
+    <!--mt-auto added to push footer to the bottom of the page-->
+   <footer class="mt-auto">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">Cantact section heading</div>
+            <!--contact info-->
+            <div class="col-12 col-md-6 col-xl-4">Contact info and social links</div>
+            <!--opening time-->
+            <div class="col-12 col-md-6 col-xl-4">opening times</div>
+        </div>
+    </div>
+   </footer>
+
+
+
 
     <!--Bootstrap 5 JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 
     <!--Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/2055840f51.js" crossorigin="anonymous"></script>
-  
+
 </body>
+
 </html>
