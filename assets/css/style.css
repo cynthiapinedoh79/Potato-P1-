@@ -4,7 +4,7 @@
 /* CSS Variables */
 :root {
     --primary-font: "Inter", sans-serif;
-    --secondary-font: "Macondo", cursive;
+    --secondary-font: "Lato", cursive;
     --primary-color: #3a2620; /* dark brown */
     --secondary-color: #aa9581; /* light brown */
     --highlight-color: #416a8e; /* blue */
@@ -22,10 +22,16 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
+}
+
+.section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* Navbar */
@@ -36,6 +42,10 @@ h3 {
 
 #navbar .logo {
     width: 30px;
+}
+/* Header */
+#header .lead{
+font-family: var(--secondary-font) ;
 }
 
 /* grid visualisation CSS for testing */
