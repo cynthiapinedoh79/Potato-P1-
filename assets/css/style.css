@@ -48,6 +48,11 @@ h3 {
 font-family: var(--secondary-font) ;
 }
 
+/*Images*/
+.img-h { 
+    height: 650px;
+}
+
 /* grid visualisation CSS for testing */
 /*
 .container,
