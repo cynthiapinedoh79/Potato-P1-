@@ -7,8 +7,8 @@
     --secondary-font: "Lato", cursive;
     --primary-color: #3a2620; /* dark brown */
     --secondary-color: #aa9581; /* light brown */
-    --highlight-color: #234497; /* blue */
-    --highlight-color-light: #7092b3; /* light blue */
+    --highlight-color: #56701d; /* Green */
+    --highlight-color-light: #857f46; /* light blue */
 }
 
 /* Global styles */
@@ -49,7 +49,7 @@ h2 {
 }
 
 #navbar .logo {
-    width: 30px;
+    width: 40px;
 }
 /* Header */
 #header .lead{
@@ -58,7 +58,7 @@ font-family: var(--secondary-font) ;
 
 /* First section */
 #img-bcg {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background: url("../images/img-bcg.jpg") no-repeat center center/cover;
     position: relative;
@@ -75,12 +75,6 @@ font-family: var(--secondary-font) ;
     padding-top: 40px;
     padding-left: 20px;
 }
-
-/*History Images*/
-.img-h { 
-    height: 300px;
-}
-
 
 /* History */
 
