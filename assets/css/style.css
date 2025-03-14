@@ -7,8 +7,8 @@
     --secondary-font: "Lato", cursive;
     --primary-color: #3a2620; /* dark brown */
     --secondary-color: #aa9581; /* light brown */
-    --highlight-color: #416a8e; /* blue */
-    --highlight-color-light: #7a9fc2; /* light blue */
+    --highlight-color: #234497; /* blue */
+    --highlight-color-light: #7092b3; /* light blue */
 }
 
 /* Global styles */
@@ -48,9 +48,30 @@ h3 {
 font-family: var(--secondary-font) ;
 }
 
+/* First section */
+#img-bcg {
+    height: 600px;
+    width: 100%;
+    background: url("../images/img-bcg.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(159, 33, 31, 0.585);
+    font-size: 120%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
 /*Images*/
 .img-h { 
-    height: 650px;
+    height: 300px;
+    padding: 0;
 }
 
 /* grid visualisation CSS for testing */
