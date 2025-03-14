@@ -102,10 +102,36 @@ p.lead.display-6.sub-heading-color{
 }
 /*History Section*/
 
-
 img.card-img-top {
     height: 240px;
     object-fit: cover;
+}
+
+/* Variety section */
+
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    color: var(--highlight-color-light);
+    font-size: 160%;
+    padding: 5%;
 }
 
 /* grid visualisation CSS for testing */
