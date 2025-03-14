@@ -22,7 +22,15 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+}
+
+h1,
+h2 {
     text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .sub-heading-color {
@@ -68,11 +76,24 @@ font-family: var(--secondary-font) ;
     padding-left: 20px;
 }
 
-/*Images*/
+/*History Images*/
 .img-h { 
     height: 300px;
-    padding: 0;
 }
+
+
+/* History */
+
+#history .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#history .card {
+    margin-bottom: 1.5rem;
+}
+
 
 /* grid visualisation CSS for testing */
 /*
