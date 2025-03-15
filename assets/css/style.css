@@ -117,6 +117,19 @@ img.card-img-top {
     object-fit: cover;
 }
 
+/* Nutritional section */
+.img-cn{
+    size: 25%;
+}
+
+#nutritional {
+    text-align: left;
+}
+
+#nutritional .card {
+    --bs-card-border-color: none;
+}
+
 /* Variety section */
 
 #variety .card {
@@ -125,10 +138,15 @@ img.card-img-top {
 
 .btn-primary {
     font-weight: bold;
-    font-size: 125%;
-    --bs-btn-color: var(--primary-color);
+    font-size: 140%;
+    --bs-btn-color: var(--highlight-color);
     --bs-btn-bg: none;
     --bs-btn-border-width: none;
+    --bs-btn-hover-color: var(--secondary-color);
+    --bs-btn-hover-bg: none;
+    --bs-btn-hover-border-color: none;
+    --bs-btn-active-bg: none;
+    --bs-btn-active-border-color: none;
 }
 
 .card.card-body{
