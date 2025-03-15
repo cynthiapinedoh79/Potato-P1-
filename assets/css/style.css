@@ -6,9 +6,10 @@
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Lato", cursive;
     --primary-color: #3a2620; /* dark brown */
-    --secondary-color: #d8a06c; /* light brown */
+    --secondary-color: #d8a06c; /* Medium brown */
+    --third-color: #aa6d3350; /* light brown */
     --highlight-color: #56701d; /* Green */
-    --highlight-color-light: #e2edce; /* light green */
+    --highlight-color-light: #e2edce6d; /* light green */
 }
 
 /* Global styles */
@@ -75,7 +76,7 @@ p.lead.display-7.sub-heading-color{
     color: var(--secondary-color);
     padding-bottom: 0px;}
 
-/* First section */
+/* Home header section */
 
 #img-bcg {
     height: 700px;
@@ -105,11 +106,12 @@ p.lead.display-7.sub-heading-color{
 #history .card-footer {
     font-weight:bold;
     color: var(--highlight-color);
-    background-color: transparent;
+    background-color: var(--third-color);
 }
 
 #history .card {
     margin-bottom: 1.5rem;
+    --bs-card-border-color: none;
 }
 
 img.card-img-top {
@@ -118,22 +120,24 @@ img.card-img-top {
 }
 
 /* Nutritional section */
-.img-cn{
-    size: 25%;
-}
 
 #nutritional {
     text-align: left;
+    background-color: var(--highlight-color-light);
 }
 
 #nutritional .card {
     --bs-card-border-color: none;
+    margin: 1.5rem;
+    --bs-card-bg:none;
 }
 
 /* Variety section */
 
 #variety .card {
     margin-bottom: 1.5rem;
+    --bs-card-border-color: none;
+    --bs-card-bg:var(--highlight-color-light);
 }
 
 .btn-primary {
