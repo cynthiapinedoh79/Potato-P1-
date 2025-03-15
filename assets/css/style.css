@@ -123,7 +123,18 @@ img.card-img-top {
     margin-bottom: 1.5rem;
 }
 
-/* Video*/
+.btn-primary {
+    font-weight: bold;
+    font-size: 125%;
+    --bs-btn-color: var(--primary-color);
+    --bs-btn-bg: none;
+    --bs-btn-border-width: none;
+}
+
+.card.card-body{
+    border:none;
+    text-wrap-style: normal;
+}
 
 
 /* Footer */
