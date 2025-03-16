@@ -5,9 +5,9 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Lato", cursive;
-    --primary-color: #3a2620; /* dark brown */
-    --secondary-color: #d8a06c; /* Medium brown */
-    --third-color: #aa6d3350; /* light brown */
+    --primary-color: #8a5849fa; /* dark brown */
+    --secondary-color: #d2945a; /* Medium brown */
+    --third-color: #cc8c5c6b; /* light brown */
     --highlight-color: #56701d; /* Green */
     --highlight-color-light: #e2edce6d; /* light green */
 }
@@ -35,7 +35,7 @@ h2 {
 }
 
 .sub-heading-color {
-    color: var(--highlight-color);
+    color: var(--primary-color);
 }
 
 .section{
@@ -105,7 +105,7 @@ p.lead.display-7.sub-heading-color{
 
 #history .card-footer {
     font-weight:bold;
-    color: var(--highlight-color);
+    color: var(--primary-color);
     background-color: var(--third-color);
 }
 
@@ -128,7 +128,7 @@ img.card-img-top {
 
 #nutritional .card {
     --bs-card-border-color: none;
-    margin: 1.5rem;
+    margin-bottom: 1.5rem;
     --bs-card-bg:none;
 }
 
@@ -169,7 +169,7 @@ img.card-img-top {
 }
 
 #social-networks i {
-    color: var(--highlight-color-light);
+    color: var(--third-color);
     font-size: 160%;
     padding: 5%;
 }
