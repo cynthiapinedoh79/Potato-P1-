@@ -23,6 +23,7 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    font-weight: 400;
 }
 
 h1,
@@ -57,10 +58,8 @@ h2 {
 font-family: var(--secondary-font) ;
 }
 
-h1.display-5{
-    font-family: var(--secondary-font) ;
-    font-weight: 600;
-    color: var(--highlight-color-light);
+h2.display-6{
+    font-weight: 400;
 }
 
 p.lead.display-6.sub-heading-color{
@@ -98,6 +97,12 @@ p.lead.display-7.sub-heading-color{
 }
 
 /* History */
+h1.display-3#history{
+    font-family: var(--secondary-font) ;
+    font-weight: bold;
+    color: var(--highlight-color-light);
+    padding:0;
+}
 
 .img-ch{
     height: 375px;
@@ -133,6 +138,10 @@ img.card-img-top {
 }
 
 /* Variety section */
+h1#variety.display-3{
+    font-weight: 500;
+    padding: 5px 0 30px 0;
+}
 
 #variety .card {
     margin-bottom: 1.5rem;
