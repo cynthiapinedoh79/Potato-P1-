@@ -5,11 +5,11 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Lato", cursive;
-    --primary-color: #8a5849fa; /* dark brown */
+    --primary-color: #7e625a; /* dark brown */
     --secondary-color: #d2945a; /* Medium brown */
-    --third-color: #cc8c5c6b; /* light brown */
+    --third-color: #f4dbc8; /* light brown */
     --highlight-color: #56701d; /* Green */
-    --highlight-color-light: #e2edce6d; /* light green */
+    --highlight-color-light: #d8e1c7; /* light green */
 }
 
 /* Global styles */
@@ -177,10 +177,44 @@ h1#variety.display-3{
     list-style-type: none;
 }
 
-#social-networks i {
+#contact #social-networks i {
     color: var(--third-color);
-    font-size: 160%;
+    font-size: 170%;
     padding: 5%;
+}
+
+#social-networks i:hover {
+    color: var(--highlight-color);
+    transition: color 0.3s ease-in-out;
+}
+
+/* Footer | Contact */
+#contact {
+    background-color: var(--primary-color);
+    color: var(--highlight-color-light);
+    padding-bottom: 3rem;
+}
+
+#contact .sub-heading-color {
+    color: var(--third-color);
+}
+
+#contact strong {
+    color: var(--highlight-color-light);
+}
+
+#contact i {
+    color: var(--highlight-color-light);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact address {
+    color: var(--third-color);
+}
+
+#contact p {
+    color: var(--third-color);
 }
 
 /* grid visualisation CSS for testing */
