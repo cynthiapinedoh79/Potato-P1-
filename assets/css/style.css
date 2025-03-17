@@ -243,6 +243,69 @@ h1.display-4#h-variety{
     font-size: 110%;
 }
 
+/* Booking */
+
+.fa-calendar{
+    display: inline-block;
+}
+
+#book-outer{
+    width: 100%;
+    height: auto;
+}
+
+#book-outer h3{
+    font-size: 150%;
+    padding:1%;
+}
+
+address {
+    text-align: center;
+    align-content: center;
+    }
+
+#address{
+    margin: 25px;
+}
+#address i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: var(--primary-color);
+}
+
+.box i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: var(--primary-color);
+}
+/* Booking Ending*/
+
+
+/* Google Map*/
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+#map iframe{
+width:600px;
+height:450px;
+border:0;
+}
+/* Google Map Ending*/
+
 /* Footer */
 footer {
     background-color: var(--primary-color);
