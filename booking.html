@@ -37,7 +37,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#features">Features</a>
@@ -48,6 +48,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="booking.html">Book Online</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -57,10 +60,10 @@
     <header id="header" class="container">
         <div class="row">
             <div class="col-12 text-center text-xl-start">
-                <div id="img-bcg">
-                    <div id="cover-text">
-                        <h1 id="h-history" class="display-4">The Incredible Journey of the Potatoe</h1>
-                        <p class="lead display-6 sub-heading-color">From Ancient Roots to Global Icon</p>
+                <div id="booking">
+                    <div>
+                        <h1 id="h-booking" class="display-4">Booking with us</h1>
+                        <p class="lead display-6 sub-heading-color">Make an apointment or visit our physical location</p>
                     </div>
                 </div>
             </div>
@@ -72,52 +75,119 @@
         <section class="container section">
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-6 text-center text-xl-start">
-                    <h2 class="display-6">The Potato chronicles.</h2>
-                    <p class="lead display-7 sub-heading-color">Guide to the rich history and cultural significance of
-                        one of the world's most
-                        important crops -<i>the potatoe</i>. From his humble origins in the Andes Mountains to becoming
-                        a
-                        global staple that feeds billions, the potatoe has played a crucial role in shaping societies,
-                        economies, and cuisines around the world.</p>
-                    <p class="my-4">Explore how this simple tuber survived ancient civilizations, crossed oceans with
-                        explorers, fueled industrial revolutions, and even caused historic events like thr Great Irish
-                        Famine.
-                        This platform is designed to take you on a fascinating journey through the evolution of the
-                        potatoe, its impact on global cuisine, and its role in shaping cultures and economies.</p>
-                </div>
-                <div class="col-12 col-xl-6 text-center text-xl-start">
-                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item">
-                                <img src="assets/images/harv.png" class="d-block w-100 img-ch"
-                                    alt="People harvesting potatoes">
-                            </div>
-                            <div class="carousel-item active">
-                                <img src="assets/images/pot-harvested.webp" class="d-block w-100 img-ch"
-                                    alt="Man harvesting potatoes">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/images/pick-up.jpg" class="d-block w-100 img-ch"
-                                    alt="Man's hand with potatoes">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/images/blue-p.png" class="d-block w-100 img-ch" alt="Man with blue T-shirt holding potatoes">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                    <h2 class="display-6">Provide your Info</h2>
+                    <p class="my-4">Schedule an appointment</p>
                 </div>
             </div>
         </section>
+
+        <section id="map" class="container-fluid">
+            <h2 class="welcome">Map</h2>
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div id="map-container-google-1" class="z-depth-1-half map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7498.004820760491!2d-119.24755440236578!3d35.77015106126652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1605808625961!5m2!1sen!2sus">
+                    </iframe>
+                    </div>
+                </div>
+              </div>
+            </section>
+            
+            <section id="book-outer" class="container-fluid">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <h2 class="welcome">Book Online</h2> 
+                    <div class="uppercase">
+                        <div class="box">
+                            <div class="box-header">
+                            <h3>Make an Appointment with Us</h3>
+                            </div>
+                            <p>Walk-ins are Welcome, Use the form below to 
+                    set up your appointment. You will be contacted within 24 hours 
+                    to confirm.</p>
+                            <hr>
+             
+                            <div class="form-group1">
+                                <div>
+                                    <label for="Select">Contac By:</label>
+                                    <select id="Select" class="form-control"><option>Email</option><option>Phone</option></select>
+                                </div>
+                            </div>
+                 
+                            <div class="form-group1">
+                                <label for="fullname"></label>
+                                <input type="text" class="form-control" id="fullname" placeholder="Full Name">
+                            </div>
+                    
+                            <div class="form-group1">
+                                <label for="email"></label>
+                                <input type="email" class="form-control" id="email" placeholder="E-mail">
+                            </div>
+                        
+                            <div class="form-group1">
+                                <label for="phone"></label>
+                                <input type="number" class="form-control" id="phone" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div><hr></div>
+            
+                        <div class="box">
+                            <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="datetimepicker8">Check availability</label>
+                                    <ul>
+                                        <li class="list-inline-item">
+                                            <div>
+                                                <input name="datetimepicker8" type="text" class="input-group, date, form-control" id="datetimepicker8">
+                                                <div>
+                                                <a target="_blank" href="https://calendar.google.com/calendar/u/0/r"><i class="fa fa-calendar" aria-hidden="true"></i>
+                                                </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div><hr></div>
+            
+                        <div class="box">
+                            <div class="form-group">
+                                <label for="Select">Desired Service:</label>
+                                <select class="Select, form-control">
+                                <option>Manicure</option>
+                                <option>Nail Art Design</option>
+                                <option>French Design</option>
+                                <option>UV Gel</option>
+                                <option>Polish Change</option>
+                                <option>Nail Repair</option>
+                                <option>Remove Polish</option>
+                                <option>Remove Acrylic</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>                    
+                            </div>
+            
+                            <div class="checkbox">
+                                    <label><input type="checkbox">  Terms &amp; conditions</label>
+                            </div>
+                                
+                            <div>
+                            <button type="submit" class="btn">Submit</button>
+                            <button type="submit" class="btn">Cancel</button><hr>
+                            </div>
+                            <span class="help-block">all appointment have $10 cancellation fee, thank you.</span>
+                        </div>
+                    <div><hr></div>
+            
+                    </div>
+                </div>
+                <div class="col-xs-1 col-sm-2 col-md-2 col-lg-3"></div>
+            </div>
+            </section>
 
         <!-- History section -->
         <section id="history" class="container section">

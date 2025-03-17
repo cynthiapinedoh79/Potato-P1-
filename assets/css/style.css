@@ -48,11 +48,30 @@ h2 {
 
 #navbar {
     background-color: var(--primary-color);
+    --bs-nav-link-hover-color: var(--secondary-color);
+    --bs-nav-link-hover-bg: var(--third-color);
+    --bs-nav-link-active-color: var(--secondary-color);
+    --bs-nav-link-active-bg: var(--third-color);
 }
 
-#navbar .logo {
-    width: 40px;
+.nav-link {
+    font-family: var(--primary-font);
+    font-size: 150%
+    color: var(--third-color);
 }
+
+
+
+#navbar .logo {
+    width: 50px;
+}
+
+button:hover {
+    color: var (--third-color);
+}
+
+
+
 /* Header */
 #header .lead{
 font-family: var(--secondary-font) ;
@@ -82,6 +101,22 @@ p.lead.display-7.sub-heading-color{
     width: 100%;
     background: url("../images/img-bcg.jpg") no-repeat center center/cover;
     position: relative;
+
+    opacity: 1;
+    animation-name: img-bcg-zoom;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes img-bcg-zoom {
+    from{
+        transform: scale(0.975);
+    }
+    to{
+        transform: scale(1);
+    }
 }
 
 #cover-text {
@@ -169,7 +204,7 @@ h1.display-4#h-variety{
 #contact {
     background-color: var(--third-color);
     color: var(--primary-color);
-    padding: 0;
+    padding: 1rem 0 1rem 0;
 }
 
 #contact strong {
