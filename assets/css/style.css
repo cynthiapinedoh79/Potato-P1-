@@ -171,7 +171,7 @@ h1#variety.display-3{
 #contact {
     background-color: var(--third-color);
     color: var(--primary-color);
-    padding-bottom: 3rem;
+    padding: 0;
 }
 
 #contact strong {
@@ -185,11 +185,24 @@ h1#variety.display-3{
 }
 
 #contact address {
-    color: black;
+    color: var(primary-color);
 }
 
 #contact p {
-    color: black;
+    color: var(primary-color);
+}
+
+#contact .table-dark{
+    --bs-table-bg: semi-transparent;
+    --bs-table-color: var(--primary-color);
+    --bs-table-border-color: var(--primary-color);
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color);
+}
+
+#contact th{
+    color: var(--secondary-color);
+    font-size: 110%;
 }
 
 /* Footer */
@@ -199,7 +212,7 @@ footer {
 
 #social-networks {
     text-align: center;
-    padding: 20px 0;
+    padding: 25px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -208,14 +221,13 @@ footer {
 #social-networks i {
     color: var(--third-color);
     font-size: 170%;
-    padding: 2%;
+    padding: 0;
 }
 
 #social-networks i:hover {
-    color: var(--highlight-color);
+    color: var(--secondary-color);
     transition: color 0.3s ease-in-out;
 }
-
 
 
 /* grid visualisation CSS for testing */

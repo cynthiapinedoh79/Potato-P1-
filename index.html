@@ -69,7 +69,7 @@
 
     <!--Main element to hold all key section of the home page. It is not part of the grid structure-->
     <main>
-        <section class="container">
+        <section class="container section">
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-6 text-center text-xl-start">
                     <h2 class="display-6">The Potato chronicles.</h2>
@@ -231,15 +231,14 @@
         </section>
 
         <!--Contact Us section-->
-            <Section id="contact" class="mt-auto">
-                <div class="container section">
-                    <div class="row justify-content-center">
-                        <div class="col-12 text-center">
-                            <h2 class="display-6 sub-heading-color">Contact Us!</h2>
-                        </div>
+        <Section id="contact" class="container section">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <h2 class="display-6 sub-heading-color">Contact Us!</h2>
                     </div>
+
                     <!--Contact information-->
-                    <div class="col-12 col-md-6 col-xl-4">
+                    <div class="col-12 col-md-6 col-xl-4 text-center">
                         <h3 class="sub-heading-color">Contact Information</h3>
                         <br>
                         <address>
@@ -252,24 +251,51 @@
                             <i class="fa-solid fa-paper-plane"></i>info@potatoes.research.inc
                         </p>
                     </div>
-        
-                    <!--Opening Times-->
+
+                    <!-- Opening times -->
                     <div class="col-12 col-md-6 col-xl-4">
-                        <h3 class="sub-heading-color">Opening Times</h3>
+                        <h3 class="sub-heading-color text-center">Opening times</h3>
+                        <table class="table table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Day</th>
+                                    <th scope="col">Open</th>
+                                    <th scope="col">Close</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Mon</th>
+                                    <td colspan="2">Closed</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Tue - Thur</th>
+                                    <td>11am</td>
+                                    <td>11pm</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Fri - Sat</th>
+                                    <td>11am</td>
+                                    <td>12am</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sun</th>
+                                    <td>12pm</td>
+                                    <td>7pm</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    </div>
-                </section>
-
-        
-
+                </div>
+        </section>
     </main>
 
     <!--Footer/ contact section-->
     <!--mt-auto added to push footer to the bottom of the page-->
     <footer class="mt-auto">
-        <section class="container section">
+        <section class="container">
             <!--Social media links-->
-            <div class="col-12">
+            <div class="col-12 text-center text-align-center">
                 <ul id="social-networks">
                     <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
                             aria-label="Visit our Facebook page (opens in a new tab)"></a><i
@@ -313,11 +339,3 @@
 </body>
 
 </html>
-
-
-
-https://www.instagram.com/p/BUu-o6mjgEf/?utm_source=ig_web_button_share_sheet
-https://youtu.be/p9qWJ89m-hY
-
-<video class="x1lliihq x5yr21d xh8yej3" playsinline="" preload="none"
-    src="blob:https://www.instagram.com/80d1ebd7-cb75-428e-905a-e6e78ab408da" style="display: block;"></video>
