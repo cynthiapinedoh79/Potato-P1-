@@ -61,7 +61,6 @@ h2 {
 }
 
 
-
 #navbar .logo {
     width: 50px;
 }
@@ -70,6 +69,17 @@ button:hover {
     color: var (--third-color);
 }
 
+.nav-item:hover {
+    color: var(--secondary-color);
+}
+
+.nav-item .btn.btn-primary.ms-lg-3{
+    font-size: 110%;
+    --bs-btn-color: var(--primary-color);
+    --bs-btn-bg: var(--third-color);
+    --bs-btn-hover-color: var(--third-color);
+    --bs-btn-hover-bg: var(--secondary-color);
+}
 
 
 /* Header */
