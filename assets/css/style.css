@@ -286,14 +286,16 @@ address {
     color: var(--secondary-color);
 }
 
-#meeting button{
+#meeting button.btn.btn-primary{
     padding: 1%;
     font-size: 120%;
     font-weight: bold;
-    color: var(--third-color);
-    background-color: var(--primary-color);
-    --bs-btn-hover-color: var(--secundary-color);
-    border: none;
+    --bs-btn-color: var(--third-color);
+    --bs-btn-bg: var(--primary-color);
+    --bs-btn-border-width: none;
+    --bs-btn-hover-color: var(--primary-color);
+    --bs-btn-hover-bg: var(--third-color);
+    --bs-btn-hover-border-color: none;
 }
 
 #booking .checkbox input{
