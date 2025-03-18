@@ -134,7 +134,7 @@ p.lead.display-7.sub-heading-color{
 /* History */
 h1.display-4#h-history{
     font-family: var(--secondary-font) ;
-    font-weight: bold;
+    font-weight: 400;
     color: var(--highlight-color-light);
 }
 
@@ -244,9 +244,22 @@ h1.display-4#h-variety{
 }
 
 /* Booking */
+h1.display-4#h-booking{
+    font-family: var(--secondary-font) ;
+    font-weight: 400;
+}
+
+#booking h3{
+    font-family: var(--secondary-font) ;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
 
 .fa-calendar{
     display: inline-block;
+    color: var(--secondary-color);
+    padding-right: 15px;
+    font-size: 1.2rem;
 }
 
 #book-outer{
@@ -267,19 +280,27 @@ address {
 #address{
     margin: 25px;
 }
-#address i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 1%;
-    color: var(--primary-color);
+#booking i {
+    padding-right: 15px;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
 }
 
-.box i{
-    font-size: 160%;
-    margin: 1%;
+#meeting button{
     padding: 1%;
-    color: var(--primary-color);
+    font-size: 120%;
+    font-weight: bold;
+    color: var(--third-color);
+    background-color: var(--primary-color);
+    --bs-btn-hover-color: var(--secundary-color);
+    border: none;
 }
+
+#booking .checkbox input{
+    padding-right: 1px;
+    font-size: 110%;
+}
+
 /* Booking Ending*/
 
 
@@ -296,7 +317,6 @@ left:0;
 top:0;
 height:100%;
 width:100%;
-position:absolute;
 }
 
 #map iframe{

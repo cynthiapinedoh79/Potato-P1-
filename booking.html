@@ -59,18 +59,20 @@
     <!--Header with carousel-->
     <header id="header" class="container seccion">
         <div class="row justify-content-center">
-            <div class="col-12 col-xl-6 text-center text-xl-start">
-                        <h1 id="h-booking" class="display-4">Booking with us</h1>
-                        <p class="lead display-6 sub-heading-color">Make an apointment or visit our physical location</p>
-                    </div>
-                </div>
+            <div class="col-12 text-center">
+                <br>
+                <h1 id="h-booking" class="display-4">Booking with us</h1>
+                <p class="lead display-6 sub-heading-color">Make an apointment or visit us at our physical location</p>
+                <img src="assets/images/booking/b1.jpg" alt="Meeting" class="img-fluid">
+            </div>
+        </div>
     </header>
 
     <!--Main element to hold all key section of the home page. It is not part of the grid structure-->
-    <main>
+    <main id="booking">
         <section class="container section">
             <div class="row justify-content-center">
-                <div class="col-12 col-xl-6 text-center text-xl-start">
+                <div class="col-12 col-xl-6 text-center">
                     <h2 class="display-6">Provide your Info</h2>
                     <p class="my-4">Schedule an appointment</p>
                 </div>
@@ -79,108 +81,128 @@
 
         <section id="map" class="container seccion">
             <div class="row justify-content-center">
-                <div class="col-12 col-xl-6 text-center text-xl-start">
-            <h2 class="welcome">Map</h2>
+                <div class="col-12 col-md-8 text-center">
+                    <h2 class="display-6 welcome">Map</h2>
                     <div id="map-container-google-1" class="z-depth-1-half map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7498.004820760491!2d-119.24755440236578!3d35.77015106126652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1605808625961!5m2!1sen!2sus">
-                    </iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7498.004820760491!2d-119.24755440236578!3d35.77015106126652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1605808625961!5m2!1sen!2sus">
+                        </iframe>
                     </div>
                 </div>
-              </div>
-            </section>
-            
-            <section id="book-outer" class="container section">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-xl-6 text-center text-xl-start">
-                    <h2 class="welcome">Book Online</h2> 
+            </div>
+        </section>
+
+        <section id="book-outer" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 text-center">
+                    <h2 class="display-6 welcome">Book Online</h2>
                     <div class="uppercase">
                         <div class="box">
                             <div class="box-header">
-                            <h3>Make an Appointment with Us</h3>
+                                <h3>Make an Appointment with Us</h3>
                             </div>
-                            <p>Walk-ins are Welcome, Use the form below to 
-                    set up your appointment. You will be contacted within 24 hours 
-                    to confirm.</p>
-                            <hr>
-             
+                            <p>Walk-ins are Welcome, Use the form below to
+                                set up your appointment. You will be contacted within 24 hours
+                                to confirm.</p>
+                            <br>
+
                             <div class="form-group1">
                                 <div>
                                     <label for="Select">Contac By:</label>
-                                    <select id="Select" class="form-control"><option>Email</option><option>Phone</option></select>
+                                    <select id="Select" class="form-control">
+                                        <option>Email</option>
+                                        <option>Phone</option>
+                                    </select>
                                 </div>
                             </div>
-                 
+
                             <div class="form-group1">
                                 <label for="fullname"></label>
                                 <input type="text" class="form-control" id="fullname" placeholder="Full Name">
                             </div>
-                    
+
+                            
                             <div class="form-group1">
                                 <label for="email"></label>
                                 <input type="email" class="form-control" id="email" placeholder="E-mail">
                             </div>
-                        
+
                             <div class="form-group1">
                                 <label for="phone"></label>
                                 <input type="number" class="form-control" id="phone" placeholder="Phone">
                             </div>
                         </div>
-                        <div><hr></div>
-        
-                            <div class="row justify-content-center">
-                                <div class="col-12 col-xl-6 text-center text-xl-start">
+                        <div>
+                            <br>
+                        </div>
+
                                 <div class="form-group">
-                                    <label for="datetimepicker8">Check availability</label>
+                                    <div class="box-header">
+
+                                        <h3>Check availability</h3>
+                                    </div>
+
+                                    <label for="datetimepicker8">Select Date and Time
+                                    </label>
                                     <ul>
-                                        <li class="list-inline-item">
-                                            <div>
-                                                <input name="datetimepicker8" type="text" class="input-group, date, form-control" id="datetimepicker8">
-                                                <div>
-                                                <a target="_blank" href="https://calendar.google.com/calendar/u/0/r"><i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <span>
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        </span>
+                                        <span>
+                                            <li class="list-inline-item">
+                                                <input name="datetimepicker8" type="text"
+                                                    class="input-group, date, form-control" id="datetimepicker8">
+
+                                                <a target="_blank" href="https://calendar.google.com/calendar/u/0/r">
                                                 </a>
-                                                </div>
-                                            </div>
+                                        </span>
+
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
-                            </div>
+                    </div>
+                    <div>
+                        <br>
+                    </div>
+
+                    <div id="meeting" class="box">
+                        <div class="form-group">
+                            <h3>Appointment</h3>
+                            <label for="Select">Meeting Type</label>
+                            <select class="Select, form-control">
+                                <option>Online by Zoom</option>
+                                <option>Online by Google Meet</option>
+                                <option>On site</option>
+                                <option>by Phone</option>
+                            </select>
                         </div>
-                        <div><hr></div>
-            
-                        <div class="box">
-                            <div class="form-group">
-                                <label for="Select">Desired Service:</label>
-                                <select class="Select, form-control">
-                                <option>Manicure</option>
-                                <option>Nail Art Design</option>
-                                <option>French Design</option>
-                                <option>UV Gel</option>
-                                <option>Polish Change</option>
-                                <option>Nail Repair</option>
-                                <option>Remove Polish</option>
-                                <option>Remove Acrylic</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>                    
-                            </div>
-            
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" placeholder="Message" maxlength="140"
+                                rows="5"></textarea>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <h3>Privacity</h3>
                             <div class="checkbox">
-                                    <label><input type="checkbox">  Terms &amp; conditions</label>
-                            </div>
-                                
-                            <div>
-                            <button type="submit" class="btn">Submit</button>
-                            <button type="submit" class="btn">Cancel</button><hr>
-                            </div>
-                            <span class="help-block">all appointment have $10 cancellation fee, thank you.</span>
+                            <label><input type="checkbox">Terms & Conditions</label>
                         </div>
-                    <div><hr></div>
-            
+                        <br>
+
+                        <div>
+                            <button type="submit" class="btn">Submit</button>
+                            <button type="submit" class="btn">Cancel</button>
+                        </div>
+                    </div>
+                        
+                        <br>
+                    <div>
+                        
+All appointment have $10 cancellation fee. Thank you.
                     </div>
                 </div>
-            </section>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!--Footer/ contact section-->
@@ -206,8 +228,7 @@
                         aria-label="Visit our LinkedIn page (opens in a new tab)"></a><i
                         class="fa-brands fa-linkedin"></i>
                 <li><a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer"
-                        aria-label="Visit our TikTok page (opens in a new tab)"></a><i
-                        class="fa-brands fa-tiktok"></i>
+                        aria-label="Visit our TikTok page (opens in a new tab)"></a><i class="fa-brands fa-tiktok"></i>
                 <li><a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer"
                         aria-label="Visit our WhatsApp page (opens in a new tab)"></a><i
                         class="fa-brands fa-whatsapp"></i>
@@ -215,7 +236,7 @@
 
             </ul>
         </div>
-</footer>
+    </footer>
 
 
 
