@@ -255,12 +255,18 @@ h1.display-4#h-booking{
     color: var(--secondary-color);
 }
 
-.fa-calendar{
+#booking .fa-calendar{
     display: inline-block;
-    color: var(--secondary-color);
-    padding-right: 15px;
-    font-size: 1.2rem;
+    color: var(--primary-color);
+    font-size: 170%;
+    padding: 0;
 }
+
+#booking .fa-calendar:hover{
+    color: var(--secondary-color);
+    transition: color 0.3s ease-in-out;
+}
+
 
 #book-outer{
     width: 100%;
