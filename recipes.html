@@ -101,7 +101,7 @@
                 <div class="col-12 col-xl-6 text-center text-xl-start">
                     <img src="assets/images/recipes/appetaizer.webp" class="d-block w-100" alt="Roasted Potato Bites">
                 </div>
-                <div id="h3-recipes" class="col-12 col-xl-6 text-center text-xl-start">
+                <div id="s-recipes" class="col-12 col-xl-6 text-center text-xl-start">
                     <h3 class="sub-heading-color">Roasted Potato Bites</h3>
                     <p>This unique appetizer take the comfort of a baked potato with "the works" and spins
                         it in a fresh, appealing way.</p>
@@ -135,23 +135,41 @@
                         </ol>
                     </div>
                     <hr>
-                    <p class="lead display-7">Yield</p>
-                    <p>24 servings of 2 appetizers</p>
-                    <br>
-                    <p class="lead display-7">Nutrients per serving:</p>
-                    <p>Calories 80, Total Fat 5 g, Saturated Fat 2.5 g, Cholesterol 10 mg, Carbohydrate 9 g, Protein 2
-                        g, Sodium 150 mg, Fiber 1 g</p>
-                    <br>
-                    <p class="lead display-7">U.S. Diabetic exchanges per serving:</p>
-                    <p>1/2 starch, 1 fat (1/2 carb)</p>
-                    <br>
-                    <p class="lead display-7">Cook's Tips:</p>
-                    <p>“B” size potatoes are new red potatoes that measure about 2 inches in diameter. They are often
-                        found in bags by the other potatoes in most grocery stores.</p>
+                    <button class="btn" onclick="toggleExtraTextap()">Read More</button>
+                    <div id="extraTextap">
+                        <p class="lead display-7">Yield</p>
+                        <p>24 servings of 2 appetizers</p>
+                        <br>
+                        <p class="lead display-7">Nutrients per serving:</p>
+                        <p>Calories 80, Total Fat 5 g, Saturated Fat 2.5 g, Cholesterol 10 mg, Carbohydrate 9 g, Protein
+                            2
+                            g, Sodium 150 mg, Fiber 1 g</p>
+                        <br>
+                        <p class="lead display-7">U.S. Diabetic exchanges per serving:</p>
+                        <p>1/2 starch, 1 fat (1/2 carb)</p>
+                        <br>
+                        <p class="lead display-7">Cook's Tips:</p>
+                        <p>“B” size potatoes are new red potatoes that measure about 2 inches in diameter. They are
+                            often
+                            found in bags by the other potatoes in most grocery stores.</p>
                         <p>The mid-sized Medium Bar Pan is perfect for preparing a variety of bite-sized appetizers, bar
-                            cookies, biscuits and brownie mixes (19-21 ounces). It is also ideal for frozen foods such as
+                            cookies, biscuits and brownie mixes (19-21 ounces). It is also ideal for frozen foods such
+                            as
                             chicken patties and French bread pizzas.</p>
-
+                    </div>
+                    <script>
+                        function toggleExtraTextap() {
+                            var extraTextap = document.getElementById("extraText-ap");
+                            var button = document.querySelector(".btn");
+                            if (extraTextap.style.display === "none") {
+                                extraTextap.style.display = "block";
+                                button.textContent = "Read Less";
+                            } else {
+                                extraTextap.style.display = "none";
+                                button.textContent = "Read More";
+                            }
+                        }
+                    </script>
                 </div>
             </div>
         </section>
