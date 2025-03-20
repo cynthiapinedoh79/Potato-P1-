@@ -226,6 +226,23 @@ h1.display-4#h-recipes{
     padding: 5px 0 30px 0;
 }
 
+#srecipes .card-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    --bs-card-border-color: none;
+}
+
+#srecipes .card {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    --bs-card-border-color: none;
+    --bs-card-bg:#fbe97448;);
+}
+
 /*Appetaizer*/
 
 #sa-recipe li{
@@ -280,7 +297,7 @@ h1.display-4#h-recipes{
     color: var(--primary-color);
     font-weight: 500;
 }
-#ss-recipe #etap{
+#ss-recipe #ets{
     display:none;
 }
 
@@ -294,11 +311,11 @@ h1.display-4#h-recipes{
     display: none;
 }
 
-#ss-recipe #etap:checked ~ .content {
+#ss-recipe #ets:checked ~ .content {
     display: block;
 }
 
-#ss-recipe #etap:checked ~ label {
+#ss-recipe #ets:checked ~ label {
     display: none;
 }
 
