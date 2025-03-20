@@ -228,17 +228,18 @@ h1.display-4#h-recipes{
 
 #srecipes .card-container {
     display: flex;
-    gap: 1rem;
+    gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 1rem;
+    padding: 10px;
     --bs-card-border-color: none;
 }
 
 #srecipes .card {
     display: flex;
     margin-bottom: 1rem;
-    padding: 1rem;
+    padding: 20px;
+    width: 100%;
     --bs-card-border-color: none;
     --bs-card-bg:#fbe97448;);
 }
