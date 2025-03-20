@@ -226,6 +226,7 @@ h1.display-4#h-recipes{
     padding: 5px 0 30px 0;
 }
 
+
 #srecipes .card {
     color: var(--primary-color);
     display: flex;
@@ -235,6 +236,15 @@ h1.display-4#h-recipes{
     --bs-card-border-color: none;
     --bs-card-bg:#fbe97448;);
 }
+
+#srecipes hr {
+    border: 2px solid var(--secondary-color);
+}
+
+#srecipes ::marker{
+    color: var(--secondary-color);
+}
+
 
 /*Appetaizer*/
 
@@ -255,7 +265,14 @@ h1.display-4#h-recipes{
     display: inline-block;
     cursor: pointer;
     color: var(--secondary-color);
+    font-weight: 400;
 }
+
+#sa-recipe label:hover{
+    color: var(--primary-color);
+    transition: color 0.3s ease-in-out;
+    font-weight: 600;
+    font-size: 105%;}
 
 #sa-recipe .content{
     display: none;
@@ -280,6 +297,17 @@ h1.display-4#h-recipes{
     color: var(--secondary-color);
 }
 
+#sa-recipe .card-body{
+    margin: 15px auto;
+    padding-top: 1.5px;
+    justify-content: center;
+    background-color: var(--highlight-color-light);
+    width: 85%;
+    min-height: 100px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
 /* Soup */
 #ss-recipe li{
     color: var(--primary-color);
@@ -298,7 +326,14 @@ h1.display-4#h-recipes{
     display: inline-block;
     cursor: pointer;
     color: var(--secondary-color);
+    font-weight: 400;
 }
+
+#ss-recipe label:hover{
+    color: var(--primary-color);
+    transition: color 0.3s ease-in-out;
+    font-weight: 600;
+    font-size: 105%;}
 
 #ss-recipe .content{
     display: none;
@@ -323,6 +358,17 @@ h1.display-4#h-recipes{
     color: var(--secondary-color);
 }
 
+#ss-recipe .card-body{
+    margin: 15px auto;
+    padding-top: 1.5px;
+    justify-content: center;
+    background-color: var(--highlight-color-light);
+    width: 85%;
+    min-height: 100px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
 /* Salad */
 #ssa-recipe li{
     color: var(--primary-color);
@@ -341,7 +387,14 @@ h1.display-4#h-recipes{
     display: inline-block;
     cursor: pointer;
     color: var(--secondary-color);
+    font-weight: 400;
 }
+
+#ssa-recipe label:hover{
+    color: var(--primary-color);
+    transition: color 0.3s ease-in-out;
+    font-weight: 600;
+    font-size: 105%;}
 
 #ssa-recipe .content{
     display: none;
@@ -366,6 +419,17 @@ h1.display-4#h-recipes{
     color: var(--secondary-color);
 }
 
+#ssa-recipe .card-body{
+    margin: 15px auto;
+    padding-top: 1.5px;
+    justify-content: center;
+    background-color: var(--highlight-color-light);
+    width: 85%;
+    min-height: 100px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
 /* Dinner */
 
 #sd-recipe li{
@@ -385,7 +449,14 @@ h1.display-4#h-recipes{
     display: inline-block;
     cursor: pointer;
     color: var(--secondary-color);
+    font-weight: 400;
 }
+
+#sd-recipe label:hover{
+    color: var(--primary-color);
+    transition: color 0.3s ease-in-out;
+    font-weight: 600;
+    font-size: 105%;}
 
 #sd-recipe .content{
     display: none;
@@ -410,6 +481,17 @@ h1.display-4#h-recipes{
     color: var(--secondary-color);
 }
 
+#sd-recipe .card-body{
+    margin: 15px auto;
+    padding-top: 1.5px;
+    justify-content: center;
+    background-color: var(--highlight-color-light);
+    width: 85%;
+    min-height: 100px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
 /* Dessert */
 
 #sde-recipe li{
@@ -429,7 +511,14 @@ h1.display-4#h-recipes{
     display: inline-block;
     cursor: pointer;
     color: var(--secondary-color);
+    font-weight: 400;
 }
+
+#sde-recipe label:hover{
+    color: var(--primary-color);
+    transition: color 0.3s ease-in-out;
+    font-weight: 600;
+    font-size: 105%;}
 
 #sde-recipe .content{
     display: none;
@@ -452,6 +541,79 @@ h1.display-4#h-recipes{
 
 #sde-recipe h3.sub-heading-color{
     color: var(--secondary-color);
+}
+
+#sde-recipe .card-body{
+    margin: 15px auto;
+    padding-top: 1.5px;
+    justify-content: center;
+    background-color: var(--highlight-color-light);
+    width: 85%;
+    min-height: 100px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+/* Drink */
+
+#sdr-recipe li{
+    color: var(--primary-color);
+    font-size:medium;
+}
+
+#sdr-recipe p.lead.display-7{
+    color: var(--primary-color);
+    font-weight: 500;
+}
+#sdr-recipe #etdr{
+    display:none;
+}
+
+#sdr-recipe label{
+    display: inline-block;
+    cursor: pointer;
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
+#sdr-recipe label:hover{
+    color: var(--primary-color);
+    transition: color 0.3s ease-in-out;
+    font-weight: 600;
+    font-size: 105%;}
+
+#sdr-recipe .content{
+    display: none;
+}
+
+#sdr-recipe #etdr:checked ~ .content {
+    display: block;
+}
+
+#sdr-recipe #etdr:checked ~ label {
+    display: none;
+}
+
+#sdr-recipe img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#sdr-recipe h3.sub-heading-color{
+    color: var(--secondary-color);
+}
+
+#sdr-recipe .card-body{
+    margin: 15px auto;
+    padding-top: 1.5px;
+    justify-content: center;
+    background-color: var(--highlight-color-light);
+    width: 85%;
+    min-height: 100px;
+    padding: 2px;
+    border-radius: 5px;
 }
 
 
@@ -687,6 +849,6 @@ footer {
     }
 
     #srecipes .card {
-        min-height: 925px;
+        min-height: 950px;
 }
 }
