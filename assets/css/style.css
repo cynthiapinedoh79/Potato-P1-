@@ -10,6 +10,7 @@
     --third-color: #f4dbc8; /* light brown */
     --highlight-color: #56701d; /* Green */
     --highlight-color-light: #d8e1c7; /* light green */
+    --bg-review-card: #f0e6c5; /* very light sand */
 }
 
 /* Global styles */
@@ -245,6 +246,11 @@ h1.display-4#h-recipes{
     color: var(--secondary-color);
 }
 
+#srecipes .stars {
+    color: #fcb033;
+    font-size: 75%;
+}
+
 
 /*Appetaizer*/
 
@@ -301,7 +307,7 @@ h1.display-4#h-recipes{
     margin: 15px auto;
     padding-top: 1.5px;
     justify-content: center;
-    background-color: var(--highlight-color-light);
+    background-color: var(--bg-review-card);
     width: 85%;
     min-height: 100px;
     padding: 2px;
@@ -362,7 +368,7 @@ h1.display-4#h-recipes{
     margin: 15px auto;
     padding-top: 1.5px;
     justify-content: center;
-    background-color: var(--highlight-color-light);
+    background-color: var(--bg-review-card);
     width: 85%;
     min-height: 100px;
     padding: 2px;
@@ -423,7 +429,7 @@ h1.display-4#h-recipes{
     margin: 15px auto;
     padding-top: 1.5px;
     justify-content: center;
-    background-color: var(--highlight-color-light);
+    background-color: var(--bg-review-card);
     width: 85%;
     min-height: 100px;
     padding: 2px;
@@ -485,7 +491,7 @@ h1.display-4#h-recipes{
     margin: 15px auto;
     padding-top: 1.5px;
     justify-content: center;
-    background-color: var(--highlight-color-light);
+    background-color: var(--bg-review-card);
     width: 85%;
     min-height: 100px;
     padding: 2px;
@@ -547,7 +553,7 @@ h1.display-4#h-recipes{
     margin: 15px auto;
     padding-top: 1.5px;
     justify-content: center;
-    background-color: var(--highlight-color-light);
+    background-color: var(--bg-review-card);
     width: 85%;
     min-height: 100px;
     padding: 2px;
@@ -609,7 +615,7 @@ h1.display-4#h-recipes{
     margin: 15px auto;
     padding-top: 1.5px;
     justify-content: center;
-    background-color: var(--highlight-color-light);
+    background-color: var(--bg-review-card);
     width: 85%;
     min-height: 100px;
     padding: 2px;
