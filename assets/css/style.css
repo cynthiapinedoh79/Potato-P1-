@@ -226,18 +226,10 @@ h1.display-4#h-recipes{
     padding: 5px 0 30px 0;
 }
 
-#srecipes .card-container {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 10px;
-    --bs-card-border-color: none;
-}
-
 #srecipes .card {
+    color: var(--primary-color);
     display: flex;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     padding: 20px;
     width: 100%;
     --bs-card-border-color: none;
@@ -330,6 +322,94 @@ h1.display-4#h-recipes{
 #ss-recipe h3.sub-heading-color{
     color: var(--secondary-color);
 }
+
+/* Salad */
+#ssa-recipe li{
+    color: var(--primary-color);
+    font-size:medium;
+}
+
+#ssa-recipe p.lead.display-7{
+    color: var(--primary-color);
+    font-weight: 500;
+}
+#ssa-recipe #etsa{
+    display:none;
+}
+
+#ssa-recipe label{
+    display: inline-block;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+#ssa-recipe .content{
+    display: none;
+}
+
+#ssa-recipe #etsa:checked ~ .content {
+    display: block;
+}
+
+#ssa-recipe #etsa:checked ~ label {
+    display: none;
+}
+
+#ssa-recipe img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#ssa-recipe h3.sub-heading-color{
+    color: var(--secondary-color);
+}
+
+/* Dinner */
+
+#sd-recipe li{
+    color: var(--primary-color);
+    font-size:medium;
+}
+
+#sd-recipe p.lead.display-7{
+    color: var(--primary-color);
+    font-weight: 500;
+}
+#sd-recipe #etd{
+    display:none;
+}
+
+#sd-recipe label{
+    display: inline-block;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+#sd-recipe .content{
+    display: none;
+}
+
+#sd-recipe #etd:checked ~ .content {
+    display: block;
+}
+
+#sd-recipe #etd:checked ~ label {
+    display: none;
+}
+
+#sd-recipe img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#sd-recipe h3.sub-heading-color{
+    color: var(--secondary-color);
+}
+
 
 /*Contact Section*/
 #contact {
@@ -531,7 +611,7 @@ footer {
     #variety .card-body {
         min-height: 250px;
     }
-}
+
 
 @media screen and (min-width: 992px) {
     /* Make all service cards the same height for consistency*/
@@ -561,4 +641,8 @@ footer {
     #variety .card-body {
         min-height: 270px;
     }
+
+    #srecipes .card {
+        min-height: 925px;
+}
 }
