@@ -226,24 +226,91 @@ h1.display-4#h-recipes{
     padding: 5px 0 30px 0;
 }
 
-#s-recipes li{
+/*Appetaizer*/
+
+#sa-recipe li{
     color: var(--primary-color);
     font-size:medium;
 }
 
-#s-recipes p.lead.display-7{
+#sa-recipe p.lead.display-7{
     color: var(--primary-color);
     font-weight: 500;
 }
-#content-ap{
-    display:contents;
+#sa-recipe #etap{
+    display:none;
 }
 
-#s-recipes .btn{
-    background-color: var(--primary-color);
-    color: var(--third-color);
-    border:none;
-    padding: 1%;
+#sa-recipe label{
+    display: inline-block;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+#sa-recipe .content{
+    display: none;
+}
+
+#sa-recipe #etap:checked ~ .content {
+    display: block;
+}
+
+#sa-recipe #etap:checked ~ label {
+    display: none;
+}
+
+#sa-recipe img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#sa-recipe h3.sub-heading-color{
+    color: var(--secondary-color);
+}
+
+/* Soup */
+#ss-recipe li{
+    color: var(--primary-color);
+    font-size:medium;
+}
+
+#ss-recipe p.lead.display-7{
+    color: var(--primary-color);
+    font-weight: 500;
+}
+#ss-recipe #etap{
+    display:none;
+}
+
+#ss-recipe label{
+    display: inline-block;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+#ss-recipe .content{
+    display: none;
+}
+
+#ss-recipe #etap:checked ~ .content {
+    display: block;
+}
+
+#ss-recipe #etap:checked ~ label {
+    display: none;
+}
+
+#ss-recipe img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#ss-recipe h3.sub-heading-color{
+    color: var(--secondary-color);
 }
 
 /*Contact Section*/

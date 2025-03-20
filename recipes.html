@@ -95,19 +95,21 @@
     <main>
         <section class="container section">
             <br>
-            <div class="row justify-content-center">
+            <!-- Appetaizer-->
+            <div id="sa-recipe" class="row justify-content-center">
                 <h2 class="display-5 text-center">Menu of the day</h2>
                 <h2 class="sub-heading-color text-center">Appetaizer</h2>
-                <div class="col-12 col-xl-6 text-center text-xl-start">
+                <div class="col-8 col-xl-4 text-center text-xl-start">
+                    <br>
                     <img src="assets/images/recipes/appetaizer.webp" class="d-block w-100" alt="Roasted Potato Bites">
                 </div>
-                <div id="s-recipes" class="col-12 col-xl-6 text-center text-xl-start">
+                <div class="col-8 col-xl-4 text-xl-start">
+                    <input type="checkbox" id="etap">
                     <h3 class="sub-heading-color">Roasted Potato Bites</h3>
                     <p>This unique appetizer take the comfort of a baked potato with "the works" and spins
                         it in a fresh, appealing way.</p>
                     <hr>
                     <p class="lead display-7 sub-heading-color">Ingredients</p>
-                    <div>
                         <ul>
                             <li>12 “B” size red potatoes (about 2 inches in diameter), unpeeled</li>
                             <li>1 tablespoon olive or vegetable oil</li>
@@ -120,7 +122,9 @@
                             </li>
                         </ul>
                         <hr>
+                        <div class="content">
                         <p class="lead display-7 sub-heading-color">Directions</p>
+                        
                         <ol>
                             <li>Preheat oven to 425°F. Cut potatoes in half crosswise. Cut a thin slice off bottom of
                                 each potato half. Carefully scoop out a small amount of pulp from each potato half using
@@ -133,10 +137,8 @@
                                 cream cheese mixture and pipe evenly into hollowed potato halves. Sprinkle with
                                 toppings, if desired. Place on serving platter; serve slightly warm.</li>
                         </ol>
-                    </div>
                     <hr>
-                    <button class="btn" onclick="toggleExtraTextap()">Read More</button>
-                    <div id="extraTextap">
+                    
                         <p class="lead display-7">Yield</p>
                         <p>24 servings of 2 appetizers</p>
                         <br>
@@ -156,20 +158,79 @@
                             cookies, biscuits and brownie mixes (19-21 ounces). It is also ideal for frozen foods such
                             as
                             chicken patties and French bread pizzas.</p>
+                            <label for="etap">Show less</label>
+                            
                     </div>
-                    <script>
-                        function toggleExtraTextap() {
-                            var extraTextap = document.getElementById("extraText-ap");
-                            var button = document.querySelector(".btn");
-                            if (extraTextap.style.display === "none") {
-                                extraTextap.style.display = "block";
-                                button.textContent = "Read Less";
-                            } else {
-                                extraTextap.style.display = "none";
-                                button.textContent = "Read More";
-                            }
-                        }
-                    </script>
+                    <label for="etap">Show more</label>
+                </div>
+            </div>
+            <br>
+            <!-- Soup-->
+            <div id="ss-recipe" class="row justify-content-center">
+                <h2 class="sub-heading-color text-center">Appetaizer</h2>
+                <div class="col-8 col-xl-4 text-center text-xl-start">
+                    <br>
+                    <img src="assets/images/recipes/appetaizer.webp" class="d-block w-100" alt="Roasted Potato Bites">
+                </div>
+                <div class="col-8 col-xl-4 text-xl-start">
+                    <input type="checkbox" id="etap">
+                    <h3 class="sub-heading-color">Roasted Potato Bites</h3>
+                    <p>This unique appetizer take the comfort of a baked potato with "the works" and spins
+                        it in a fresh, appealing way.</p>
+                    <hr>
+                    <p class="lead display-7 sub-heading-color">Ingredients</p>
+                        <ul>
+                            <li>12 “B” size red potatoes (about 2 inches in diameter), unpeeled</li>
+                            <li>1 tablespoon olive or vegetable oil</li>
+                            <li>2 garlic cloves, pressed</li>
+                            <li>1/2 teaspoon salt</li>
+                            <li>1/4 teaspoon ground black pepper</li>
+                            <li>4 ounces chive and onion cream cheese spread</li>
+                            <li>3 tablespoons sour cream</li>
+                            <li>Optional toppings such as grated cheddar cheese, bacon bits and snipped fresh chives
+                            </li>
+                        </ul>
+                        <hr>
+                        <div class="content">
+                        <p class="lead display-7 sub-heading-color">Directions</p>
+                        
+                        <ol>
+                            <li>Preheat oven to 425°F. Cut potatoes in half crosswise. Cut a thin slice off bottom of
+                                each potato half. Carefully scoop out a small amount of pulp from each potato half using
+                                Core & More. In Classic Batter Bowl, combine oil, garlic pressed with Garlic Press, salt
+                                and black pepper. Add potato halves; toss to coat.</li>
+                            <li>Place potato halves, hollowed side down, on Medium Bar Pan. Bake 30-32 minutes or until
+                                deep golden brown and tender. Remove from oven; cool slightly.</li>
+                            <li>In Small Batter Bowl, combine cream cheese spread and sour cream; whisk together until
+                                smooth using Stainless Whisk. Attach desired tip to Easy Accent® Decorator; fill with
+                                cream cheese mixture and pipe evenly into hollowed potato halves. Sprinkle with
+                                toppings, if desired. Place on serving platter; serve slightly warm.</li>
+                        </ol>
+                    <hr>
+                    
+                        <p class="lead display-7">Yield</p>
+                        <p>24 servings of 2 appetizers</p>
+                        <br>
+                        <p class="lead display-7">Nutrients per serving:</p>
+                        <p>Calories 80, Total Fat 5 g, Saturated Fat 2.5 g, Cholesterol 10 mg, Carbohydrate 9 g, Protein
+                            2
+                            g, Sodium 150 mg, Fiber 1 g</p>
+                        <br>
+                        <p class="lead display-7">U.S. Diabetic exchanges per serving:</p>
+                        <p>1/2 starch, 1 fat (1/2 carb)</p>
+                        <br>
+                        <p class="lead display-7">Cook's Tips:</p>
+                        <p>“B” size potatoes are new red potatoes that measure about 2 inches in diameter. They are
+                            often
+                            found in bags by the other potatoes in most grocery stores.</p>
+                        <p>The mid-sized Medium Bar Pan is perfect for preparing a variety of bite-sized appetizers, bar
+                            cookies, biscuits and brownie mixes (19-21 ounces). It is also ideal for frozen foods such
+                            as
+                            chicken patties and French bread pizzas.</p>
+                            <label for="etap">Show less</label>
+                            
+                    </div>
+                    <label for="etap">Show more</label>
                 </div>
             </div>
         </section>
