@@ -410,6 +410,50 @@ h1.display-4#h-recipes{
     color: var(--secondary-color);
 }
 
+/* Dessert */
+
+#sde-recipe li{
+    color: var(--primary-color);
+    font-size:medium;
+}
+
+#sde-recipe p.lead.display-7{
+    color: var(--primary-color);
+    font-weight: 500;
+}
+#sde-recipe #etde{
+    display:none;
+}
+
+#sde-recipe label{
+    display: inline-block;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+#sde-recipe .content{
+    display: none;
+}
+
+#sde-recipe #etde:checked ~ .content {
+    display: block;
+}
+
+#sde-recipe #etde:checked ~ label {
+    display: none;
+}
+
+#sde-recipe img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#sde-recipe h3.sub-heading-color{
+    color: var(--secondary-color);
+}
+
 
 /*Contact Section*/
 #contact {
