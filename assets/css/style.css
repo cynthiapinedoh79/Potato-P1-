@@ -735,6 +735,11 @@ address {
     border: var(--bs-border-width) solid var(--primary-color);
 }
 
+#f-r span{
+    color: red; important;
+    font-size: smaller;
+}
+
 /* Booking Ending*/
 
 

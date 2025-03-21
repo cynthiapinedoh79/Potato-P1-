@@ -102,53 +102,56 @@
                                 set up your appointment. You will be contacted within 24 hours
                                 to confirm.</p>
                             <form id="f-bcg" action="success.html" method="get">
-                                <div class="row">
+                                <div id="f-r" class="row">
                                     <div class="col-12 col-lg-6 mb-3">
-                                        <label for="name" class="form-label">Name</label>
+                                        <label for="name" class="form-label">Full Name<span> required!</span></label>
                                         <input class="form-control" id="name" name="name" type="text" required>
                                     </div>
                                     <div class="col-12 col-lg-6 mb-3">
-                                        <label for="email" class="form-label">Email</label>
+                                        <label for="email" class="form-label">Email<span> required!</span></label>
                                         <input class="form-control" id="email" name="email" type="email" required>
                                     </div>
                                     <div class="col-12 col-lg-6 mb-3">
-                                        <label for="phone" class="form-label">Phone number</label>
+                                        <label for="phone" class="form-label">Phone (only numbers)<span>
+                                                required!</span></label>
                                         <input class="form-control" id="phone" name="phone" type="number" required>
                                     </div>
                                     <div class="col-12 col-lg-6 mb-3">
                                         <div id="meeting" class="box">
                                             <div>
-                                        <label for="meeting-type" class="form-label">Meeting type</label>
-                                        <select id="meeting-type" class="form-select form-control" name="meeting-type" required>
-                                            <option value="" selected>Select</option>
-                                                        <option>Online by Zoom</option>
-                                                        <option>Online by Google Meet</option>
-                                                        <option>On site</option>
-                                                        <option>by Phone</option>
-                                                    </select>
-                                                </div>
-                                                </div>
+                                                <label for="meeting-type" class="form-label">Meeting type<span>
+                                                        required!</span></label>
+                                                <select id="meeting-type" class="form-select form-control"
+                                                    name="meeting-type" required>
+                                                    <option value="" selected>Select</option>
+                                                    <option>Online by Zoom</option>
+                                                    <option>Online by Google Meet</option>
+                                                    <option>On site</option>
+                                                    <option>by Phone</option>
+                                                </select>
+                                            </div>
+                                        </div>
                                         </select>
                                     </div>
                                     <div class="col-12 mb-3">
                                         <label for="message" class="form-label">Message</label>
-                                        <textarea class="form-control" rows="6" id="message" name="message"
-                                            required></textarea>
+                                        <textarea class="form-control" rows="4" id="message" name="message"></textarea>
                                     </div>
-                                </div>
-                                <div>
+
+                                    <!-- Calendary-->
                                     <div class="box-header">
                                         <h3>Check availability</h3>
                                         <span><a target="_blank" href="https://calendar.google.com/calendar/u/0/r"><i
                                                     class="fa fa-calendar" aria-hidden="true"></i>
                                             </a></span>
                                     </div>
+                                    <!-- Finished Calendary-->
                                     <br>
 
                                     <div id="meeting" class="box">
                                         <div class="form-group">
                                             <h3>Interest Topic</h3>
-                                            <label for="Select">Category</label>
+                                            <label for="Select">Category<span> required!</span></label>
                                             <select class="Select, form-control" required>
                                                 <option value="" selected>Select</option>
                                                 <option>Research</option>
@@ -157,27 +160,23 @@
                                                 <option>Purchasing</option>
                                             </select>
                                         </div>
-                                        </div>
-
-                                        <br>
-                                        <div class="form-group">
-                                            <h3>Confidentiality</h3>
-                                            <div class="checkbox">
-                                                <label><input type="checkbox" required>   Terms & Conditions</label>
-                                            </div>
-                                            <br>
-
-                                        </div>
-                                        <div>
-
-                                            All appointment have $10 cancellation fee. Thank you.
-                                        </div>
+                                    </div>
+                                    <br>
+                                    <h3>Confidentiality</h3>
+                                    <div class="checkbox form-group">
+                                        <label><input type="checkbox" required> Terms & Conditions<span>
+                                                required!</span></label>
                                         <br>
                                     </div>
-
                                 </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </form>
+                                <div>
+                                    If you need to cancel or reschedule, please contact us at least 24 hours in
+                                    advance.
+                                </div>
+                                <br>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
 
         </section>
     </main>
