@@ -17,6 +17,7 @@
     /* light green */
     --bg-review-card: #f0e6c5;
     /* very light sand */
+    --contact-header-color: #a47a53;
 }
 
 /* Global styles */
@@ -113,6 +114,7 @@ p.lead.display-7.sub-heading-color {
     padding-bottom: 0px;
 }
 
+
 /* Home header section */
 
 #img-bcg {
@@ -141,7 +143,7 @@ p.lead.display-7.sub-heading-color {
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(159, 33, 31, 0.59);
+    background-color: #99161694;
     font-size: 120%;
     position: absolute;
     bottom: 30px;
@@ -149,6 +151,10 @@ p.lead.display-7.sub-heading-color {
     min-height: 200px;
     padding-top: 40px;
     padding-left: 20px;
+}
+
+#cover-text p {
+    color:#f3cfb1;
 }
 
 /* History */
@@ -646,11 +652,11 @@ h1.display-4#h-recipes {
 }
 
 #contact strong {
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
 }
 
 #contact i {
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
     font-size: 1.2rem;
     margin-right: 15px;
 }
@@ -677,7 +683,7 @@ h1.display-4#h-recipes {
 }
 
 #contact th {
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
     font-size: 110%;
 }
 

@@ -1,131 +1,208 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Potato
 
-Welcome Cynthia Pinedo,
+## Code Institute - First Milestone Project: User Centric Frontend Development.
+# Table of Contents
+- [Anjalee Kulasinghe Online CV](#Potato)
+  - [Code Institute - First Milestone Project: User Centric Frontend Development.](#code-institute---first-milestone-project-user-centric-frontend-development)
+- [Table of Contents](#table-of-contents)
+  - [Demo](#demo)
+    - [A live demo to the website can be found here](#a-live-demo-to-the-website-can-be-found-here)
+  - [UX](#ux)
+  - [User stories](#user-stories)
+    - [Strategy](#strategy)
+    - [Scope](#scope)
+    - [Structure](#structure)
+    - [Skeleton](#skeleton)
+    - [Surface](#surface)
+  - [Technologies](#technologies)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Features Left to Implement](#features-left-to-implement)
+  - [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+    - [Bugs](#bugs)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Demo
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+![Website look on different devices]
+(../assets/css/images/recipes/resp-home.png)
+(../assets/css/images/recipes/resp-home.png)
 
-## Gitpod Reminders
+### A live demo to the website can be found [here](https://cynthiapinedoh79.github.io/-P1-)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## UX
+This website is designed for anyone interested in learning more about potatoes, from history and research to purchasing them or taking cooking classes.
+Anyone who wants to learn more about potatoes, from history and research, purchasing them or taking cooking classes, will find this website useful.
 
-A blue button should appear to click: _Make Public_,
+## User stories
+My goal as the sole developer of this website is to give you access to accurate and valuable potatoes information, including their history, diversity, and most commonly used varieties, nutritional value, and recipes.
 
-Another blue button should appear to click: _Open Browser_.
+For users, I have established the following points:
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+- In my role as a user, I aim to quickly and easily comprehend the purpose of this website.
+- I desire to navigate this website effortlessly using a mouse, keyboard, or touchscreen as a user.
+- I am seeking high-quality and concise information about potato-related topics as a user.
+- As an end user, I am looking for a way to contact this website.
 
-A blue button should appear to click: _Make Public_,
+### Strategy
+Our objective is to create a website that is both professional and functional. Our focus is on design that is both intuitive and creative.
 
-Another blue button should appear to click: _Open Browser_.
+(../assets/css/images/readme/strategy.png)
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Scope
+The site is targeted towards three primary categories of users: young adults (15-24), adults (25-64) and seniors (65 and older).
 
-To log into the Heroku toolbelt CLI:
+(../assets/css/images/readme/scope1.png)
+(../assets/css/images/readme/scope2.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Structure
+The website is designed with 4 pages, with fixed top navigation and redirection to the contact section on the home page from any of them.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+**Website Pages:**
+1. **_Home:_** Potato's introduction, history and contact section.
+2. **_Variety:_** Diverrsity and potatoes variety.
+3. **_Recipes:_** Introduction and recipes.
+4. **_Booking:_** Map and make an appointment.
+6. **_Footer:_** At the bottom of the website with social media links.
 
-### Connecting your Mongo database
+(../assets/css/images/readme/structure.png)
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+### Skeleton
+The website is designed to be clear and simple. And the site has a simple tree structure with hierarchical flows from top to bottom.
 
-------
+**Wireframe**
+The wireframe is designed using Balsamiq software. The first draft was edited with the guidance of the mentor. Although the site was built as a single-page scrolling website, the wireframe was designed to focus on each and every section as a single page and connect them using the navigation.
 
-## Release History
+My wireframe design in the [(pdf format)](../assets/css/images/readme/)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Surface
+To create a pleasing and understandable view, I opt for natural colors such as earth, green, and a range of tones that complement and contrast each other.
 
-**June 18, 2024,** Add Mongo back into template
+I tested the contrast with https://webaim.org/
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+_Background image and the colors_
+![Background image used](../assets/css/images/readme/Background_Image.PNG)
 
-**May 28 2024:** Fix Mongo and Links installs
+_Main color palette_
 
-**April 26 2024:** Update node version to 16
+![Main color Palette](../assets/css/images/readme/Main_Color_Palette.png)
 
-**September 20 2023:** Update Python version to 3.9.17.
+## Technologies
+1. HTML - To create a basic site
+2. CSS - To create a nice, standout front-end and to give a great user experience
+3. Balsamiq - To create a wireframe
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Features
+### Existing Features
+* **Navigation Bar**
+  * The navigation bar is fixed to the right side of the top. The logo is in the left-hand corner of the navigation.
+  * The font color is in contrast with the navigation background color. The hover effect is used for navigation, so the user can know which page they are on. 
+![navigation_bar](../assets/css/readme/nav.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* **Home**
+  - As the background image, we use cover text to welcome to the site.
+  - There is a brief introduction and history info.
+  
+![home_page](../assets/)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* **Variety**
+  * This page display the most commun potatoes types.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![variety_page](../assets/)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- **Recipes**
+  * Recipes using potatoe as first protagonist.
+  *This page introduce the chef of the month with a daily different recipe per day, that includes: Appetizer, Soup, Dinner, Dessert and Drink.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![recipes_page](../assets/)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- **Booking**
+  - In this section, information is focused on four categories.
+  - _Expertise:_ skills that I have learned during the past few years by working in different industries and jobs. I believe that these top few skills that I have listed will help me as a developer in the field of IT.
+  - _Language skills (human):_ these are the languages that I am able to use for communication (read, write, and speak).
+  - _Tools:_ some technological tools that I am familiar with.
+  - _Tech Languages:_ these are some tech languages that I have some basic understanding of and have started to learn deeper with the Code Institute.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![Booking_page](../assets/)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- **Contact**
+  - In the Contact Me section, give the user the main contact details that they can use to reach me (Anjalee Kulasinghe). This section is divided into two main sections.
+  - On the left-hand side, there is a picture of me, which will help the user remember who I am if they see me in an interview. Below the profile image, my name (first and last names), what positions I am currently capable of, my email address, my mobile number and my postal address are listed. 
+  - On the left-hand side, a form is given where the users will have the ability to contact me directly by entering their name and email address along with a message. The user will be asked to include their first name, last name, email, and message. The submit and reset buttons are placed at the end of the form.
 
-------
+![contact_section](../assets/)
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
+- **Footer**
+  - This section includes the social media links.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![footer](./assets/)
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Features Left to Implement
+Towards the future,
+* My objective is to expand the uses of potatoes, beyond their culinary applications, to include industrial uses, which can involve creating plastics, adhesives, paper, and other materials; and medicinal uses that include incorporating them as an ingredient in products designed to alleviate inflammation and minor burns.
+* A PDF page that contains nutritional facts for the main types of potatoes would be added, but I left a generalized one because the variation is minimal.
+* It would be beneficial to include a page that provides basic information for farmers, including simplified information on the suitable climate and altitude for planting potatoes, as well as their distribution and marketing.
+* I would like to improve the performance of the website.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Testing
+* I tested the site, and it works in different web browsers: Chrome, Firefox, Safari and Microsoft Edge.
+* On mobile devices, I tested the site on Pixel 7 XL Pro.
+* I confirmed that the site is responsive and functions on different screen sizes using the devtools device toolbar.
+* I confirmed that the navigation, pages and differents sections are readable and easy to understand.
+* I confirmed that the form works: it requires entries in the most important fields, only accepts an email in the email format, and the submit buttons work.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Validator Testing
+* **HTML**
+* All pages: Home:index.html, Variety:variety.html, Recipes:recipes.html and Booking:booking.html passed through the official [W3C validator]with no errors. (./assets/readme-assets/validator_result_html.PNG)
 
-**So….?**
+* **CSS**
+  CSS:style.css code passed through the official [(Jigsaw) validator]with no errors(./assets/readme-assets/css-validator_result.PNG)
+  
+* **Accessibility**
+  I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools](./assets/)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Bugs
+* **Solved bugs**
+  * When I was fixing my site to be responsive, I found out that in the 'Contact Me' section, the contact form does not go below the screen when the screen is small. 
+  * This has happened since I have used `<display: flex;>`. 
+  * Changing flex to block fixed the problem `<display: block;>`.
 
-**Can I opt out?**
+## Deployment
+* The site was deployed to Git Hub pages using the following steps:
+  * In the Github repository, the Stetting tab.
+  * Under General, navigate to Code and Automation and select 'Pages'.
+  * In the Build and Deployment section for Source, select 'Deploy from a branch' from the drop-down list.
+  * For Branch, select 'main' from the drop-down list and Save.
+  * On the top of the page, the link to the complete website is provided.
+  
+  - The deployed site will update automatically upon new commits to the master branch.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Credits
+*
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Content
+* Animation added to the home text is taken from the Code Institute's [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main) project.
 
----
+### Media
+The img used as a background image is taken from [Pixabay].
 
-Happy coding!
+### Acknowledgements
+* Inspirational support from [Karina Finegan](https://kairosity.github.io/milestone-project-1-cv-website/?#home-section) project.
+* Ideas were taken from the Code Institute's Coffee House and Love Running projects.
+* The the Code Institute tutor support team for helping me with the correct guidance.
+* My mentor, Medale Oluwafemi, for his meanful advices.
