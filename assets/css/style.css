@@ -55,6 +55,12 @@ h2 {
 /* Navbar */
 
 #navbar {
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index: 1000;
+    padding: 0;
+    margin-bottom: 20px;
     background-color: var(--primary-color);
     --bs-nav-link-hover-color: var(--secondary-color);
     --bs-nav-link-hover-bg: var(--third-color);
@@ -92,6 +98,11 @@ button:hover {
 
 
 /* Header */
+
+#header {
+padding-top: 3.5rem;
+}
+
 #header .lead {
     font-family: var(--secondary-font);
 }
@@ -165,7 +176,7 @@ h1.display-4#h-history {
 }
 
 .img-ch {
-    height: 375px;
+    height: 325px;
 }
 
 #history .card-footer {
@@ -260,6 +271,12 @@ h1.display-4#h-recipes {
     font-size: 75%;
 }
 
+#sa-recipe img {
+    height: 375px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 /*Appetaizer*/
 
@@ -304,7 +321,8 @@ h1.display-4#h-recipes {
 }
 
 #sa-recipe img {
-    height: 475px;
+    padding: 0 30px;
+    height: 375px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -367,7 +385,8 @@ h1.display-4#h-recipes {
 }
 
 #ss-recipe img {
-    height: 475px;
+    padding: 0 30px;
+    height: 375px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -430,7 +449,8 @@ h1.display-4#h-recipes {
 }
 
 #ssa-recipe img {
-    height: 475px;
+    padding: 0 30px;
+    height: 375px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -494,7 +514,8 @@ h1.display-4#h-recipes {
 }
 
 #sd-recipe img {
-    height: 475px;
+    padding: 0 30px;
+    height: 375px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -558,7 +579,8 @@ h1.display-4#h-recipes {
 }
 
 #sde-recipe img {
-    height: 475px;
+    padding: 0 30px;
+    height: 375px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -622,7 +644,8 @@ h1.display-4#h-recipes {
 }
 
 #sdr-recipe img {
-    height: 475px;
+    padding: 0 30px;
+    height: 375px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -807,6 +830,7 @@ address {
 /* Footer */
 footer {
     background-color: var(--primary-color);
+    padding-bottom: 0;
 }
 
 #social-networks {
@@ -848,12 +872,21 @@ footer {
 
     /* Make all service cards the same height for consistency*/
     #history .card-body {
-        min-height: 260px;
+        min-height: 270px;
     }
 
     #variety .card-body {
         min-height: 250px;
     }
+
+    #h-variety img {
+        height: 550px;
+    }
+
+    #nu-variety img {
+        height: 550px;
+    }
+
 }
 
     @media screen and (min-width: 992px) {
@@ -863,6 +896,10 @@ footer {
             min-height: 200px;
         }
 
+        .img-ch {
+            height: 375px;
+        }
+
         #variety .card-body {
             min-height: 200px;
         }
@@ -870,13 +907,25 @@ footer {
         #social-networks {
             padding: 25px 100px;
         }
+
+        #h-variety img {
+            height: 650px;
+        }
+    
+        #nu-variety img {
+            height: 650px;
+        }
     }
 
     @media screen and (min-width: 1200px) {
 
         /* Make all service cards the same height for consistency*/
         #history .card-body {
-            min-height: 245px;
+            min-height: 275px;
+        }
+
+        .img-ch {
+            height: 400px;
         }
 
         #variety .card-body {
@@ -885,14 +934,12 @@ footer {
 
         #h-variety img{
             height: 600px;
+            padding-left: 20px;
         }
 
         #nu-variety img {
             height: 575px;
-        }
-
-        #h-recipes img {
-            height: 500px;
+            padding-left: 20px;
         }
 
         #social-networks {
@@ -907,6 +954,10 @@ footer {
             min-height: 220px;
         }
 
+        .img-ch {
+            height: 400px;
+        }
+
         #variety .card-body {
             min-height: 270px;
         }
@@ -916,11 +967,13 @@ footer {
         }
 
         #h-variety img{
-            height: 575px;
+            height: 600px;
+            padding-left: 30px;
         }
 
         #nu-variety img {
-            height: 500px;
+            height: 600px;
+            padding-left: 30px;
         }
 
         #social-networks {
