@@ -934,12 +934,17 @@ footer {
 
         #h-variety img{
             height: 600px;
-            padding-left: 20px;
+            padding-left: 10px;
         }
 
         #nu-variety img {
             height: 575px;
             padding-left: 20px;
+        }
+
+        #h-recipes img{
+            height: 500px;
+            padding-left: 100px;
         }
 
         #social-networks {
@@ -962,10 +967,6 @@ footer {
             min-height: 270px;
         }
 
-        #srecipes .card {
-            min-height: 925px;
-        }
-
         #h-variety img{
             height: 600px;
             padding-left: 30px;
@@ -974,6 +975,15 @@ footer {
         #nu-variety img {
             height: 600px;
             padding-left: 30px;
+        }
+
+        #srecipes .card {
+            min-height: 925px;
+        }
+
+        #h-recipes img{
+            height: 500px;
+            padding-left: 100px;
         }
 
         #social-networks {
