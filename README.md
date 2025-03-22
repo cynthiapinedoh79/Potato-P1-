@@ -28,10 +28,9 @@
     - [Acknowledgements](#acknowledgements)
 
 ## Demo
-![alt text](image.jpg)
-[title](https://www.example.com)
-![resp-recipes](./assets/css/images/readme/resp-recipes.png)
-![resp-home](../assets/readme-assets/resp-home.png)
+![resp-home](assets/css/images/resp-home.png)
+![resp-recipes](assets/css/images/readme/resp-recipes.png)
+
 
 ### A live demo to the website can be found [here](https://cynthiapinedoh79.github.io/-P1-)
 
@@ -53,13 +52,13 @@ For users, I have established the following points:
 ### Strategy
 Our objective is to create a website that is both professional and functional. Our focus is on design that is both intuitive and creative.
 
-(../assets/css/images/readme/strategy.png)
+(assets/css/images/readme/strategy.png)
 
 ### Scope
 The site is targeted towards three primary categories of users: young adults (15-24), adults (25-64) and seniors (65 and older).
 
-(../assets/css/images/readme/scope1.png)
-(../assets/css/images/readme/scope2.png)
+(assets/css/images/readme/scope1.png)
+(assets/css/images/readme/scope2.png)
 
 ### Structure
 The website is designed with 4 pages, with fixed top navigation and redirection to the contact section on the home page from any of them.
@@ -79,7 +78,7 @@ The website is designed to be clear and simple. And the site has a simple tree s
 **Wireframe**
 The wireframe is designed using Balsamiq software. The first draft was edited with the guidance of the mentor. Although the site was built as a single-page scrolling website, the wireframe was designed to focus on each and every section as a single page and connect them using the navigation.
 
-My wireframe design in the [(img png)](../assets/css/images/readme/balsamic.png)
+My wireframe design in the [(img png)](assets/css/images/readme/balsamic.png)
 
 ### Surface
 To create a pleasing and understandable view, I opt for natural colors such as earth, green, and a range of tones that complement and contrast each other.
@@ -88,7 +87,7 @@ I tested the contrast with https://webaim.org/resources/linkcontrastchecker/
 
 _Main color palette_
 
-![Main color Palette](../assets/css/images/readme/colors.png)
+![Main color Palette](assets/css/images/readme/colors.png)
 
 ## Technologies
 1. HTML - To create a basic site
@@ -100,27 +99,27 @@ _Main color palette_
 * **Navigation Bar**
   * The navigation bar is fixed to the right side of the top. The logo is in the left-hand corner of the navigation.
   * The font color is in contrast with the navigation background color. The hover effect is used for navigation, so the user can know which page they are on. 
-![navigation_bar](../assets/css/images/readme/nav.png)
+![navigation_bar](assets/css/images/readme/nav.png)
 
 
 * **Home**
   - As the background image, we use cover text to welcome to the site.
   - There is a brief introduction and history info.
   
-![home_page](../assets/css/images/readme/home.png)
+![home_page](assets/css/images/readme/home.png)
 
 
 * **Variety**
   * This page display the most commun potatoes types.
 
-![variety_page](../assets/css/images/readme/variety.png)
+![variety_page](assets/css/images/readme/variety.png)
 
 
 - **Recipes**
   * Recipes using potatoe as first protagonist.
   *This page introduce the chef of the month with a daily different recipe per day, that includes: Appetizer, Soup, Dinner, Dessert and Drink.
 
-![recipes_page](../assets/css/images/readme/recipes.png)
+![recipes_page](assets/css/images/readme/recipes.png)
 
 
 - **Booking**
@@ -130,7 +129,7 @@ _Main color palette_
   - _Tools:_ some technological tools that I am familiar with.
   - _Tech Languages:_ these are some tech languages that I have some basic understanding of and have started to learn deeper with the Code Institute.
 
-![Booking_page](../assets/css/images/readme/booking.png)
+![Booking_page](assets/css/images/readme/booking.png)
 
 
 - **Contact**
@@ -138,13 +137,13 @@ _Main color palette_
   - On the left-hand side, there is a picture of me, which will help the user remember who I am if they see me in an interview. Below the profile image, my name (first and last names), what positions I am currently capable of, my email address, my mobile number and my postal address are listed. 
   - On the left-hand side, a form is given where the users will have the ability to contact me directly by entering their name and email address along with a message. The user will be asked to include their first name, last name, email, and message. The submit and reset buttons are placed at the end of the form.
 
-![contact_section](../assets/css/images/readme/contact.png)
+![contact_section](assets/css/images/readme/contact.png)
 
 
 - **Footer**
   - This section includes the social media links.
 
-![footer](./assets/)
+![footer](assets/css/images/readme/footer.png)
 
 
 ### Features Left to Implement
@@ -163,13 +162,13 @@ Towards the future,
 
 ### Validator Testing
 * **HTML**
-* All pages: Home:index.html, Variety:variety.html, Recipes:recipes.html and Booking:booking.html passed through the official [W3C validator]with no errors. (../assets/css/images/readme/W3C-index.html.png)(../assets/css/images/readme/W3C-variety.html.png)(../assets/css/images/readme/W3C-recipes.html.png)(../assets/css/images/readme/W3C-booking.html.png)
+* All pages: Home:index.html, Variety:variety.html, Recipes:recipes.html and Booking:booking.html passed through the official [W3C validator]with no errors. (assets/css/images/readme/W3C-index.html.png)(assets/css/images/readme/W3C-variety.html.png)(assets/css/images/readme/W3C-recipes.html.png)(assets/css/images/readme/W3C-booking.html.png)
 
 * **CSS**
-  CSS:style.css code passed through the official [(Jigsaw) validator]with no errors(./assets/readme-assets/css-validator_result.PNG)(../assets/css/images/readme/W3C-style.css.png)
+  CSS:style.css code passed through the official [(Jigsaw) validator]with no errors(./assets/readme-assets/css-validator_result.PNG)(assets/css/images/readme/W3C-style.css.png)
   
 * **Accessibility**
-  I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools](./assets/)
+  I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools](assets/)
 
 ### Bugs
 * **Solved bugs**
@@ -200,12 +199,9 @@ Towards the future,
 [the last one](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main) project.
 
 ### Media
-The img used from [https://www.pexels.com/].
+Images from [Images](https://www.pexels.com/).
 
 ### Acknowledgements
 * Ideas were taken from the Code Institute's Coffee House and Love Running projects.
 * The the Code Institute tutor support team for helping me with the correct guidance.
 * My mentor, Medale Oluwafemi, for his meanful advices.
-
-
-[def]: ../assets/readme-assets/resp-home.png
