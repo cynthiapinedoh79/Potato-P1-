@@ -305,7 +305,7 @@ CSS code passed through the official (Jigsaw) W3C validator with no errors.
 
   
 * **Accessibility**
-  I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools](assets/)
+  I confirmed that the colors and fonts chosen are easy to read and accessible by running it through ![Lighthouse DevTools](assets/images/readme/lighthouse.webp)
 
   ### Testing User Stories from User Experience (UX) Section
 
