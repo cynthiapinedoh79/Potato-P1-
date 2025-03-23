@@ -28,8 +28,8 @@
     - [Acknowledgements](#acknowledgements)
 
 ## Demo
-![resp-home](assets/images/readme/resp-home.png)
-![resp-recipes](assets/images/readme/resp-recipes.png)
+![resp-home](assets/images/readme/resp-home.webp)
+![resp-recipes](assets/images/readme/resp-recipes.webp)
 
 
 ### A live demo to the website can be found [here](https://cynthiapinedoh79.github.io/Potato-P1-/)
@@ -91,14 +91,14 @@ For users, I have established the following points:
 ### 1. Strategy
 Our objective is to create a website that is both professional and functional. Our focus is on design that is both intuitive and creative.
 
-![Strategy](assets/images/readme/strategy.png)
+![Strategy](assets/images/readme/strategy.webp)
 
 ### 2. Scope
 The site is targeted towards three primary categories of users: young adults (15-24), adults (25-64) and seniors (65 and older).
 
-![Scope pg1](assets/images/readme/scope1.png)
+![Scope pg1](assets/images/readme/scope1.webp)
 
-![Scope pg2](assets/images/readme/scope2.png)
+![Scope pg2](assets/images/readme/scope2.webp)
 
 ### 3. Structure
 The website is designed with 4 pages, with fixed top navigation and redirection to the contact section on the home page from any of them.
@@ -110,7 +110,7 @@ The website is designed with 4 pages, with fixed top navigation and redirection 
 4. **_Booking:_** Map and make an appointment.
 6. **_Footer:_** At the bottom of the website with social media links.
 
-![Structure](assets/images/readme/structure.png)
+![Structure](assets/images/readme/structure.webp)
 
 ### 4. Skeleton
 The website is designed to be clear and simple. And the site has a simple tree structure with hierarchical flows from top to bottom.
@@ -137,7 +137,7 @@ To create a pleasing and understandable view, I opt for natural colors such as e
 
 _Main color palette_
 
-![Main color Palette](assets/images/readme/colors.png)
+![Main color Palette](assets/images/readme/colors.webp)
 
 ## Technologies
 1. HTML - To create a basic site
@@ -156,27 +156,27 @@ _Main color palette_
 -   Interactive elements
 -   Simple animations on cover Images for pages.
   
-![navigation_bar](assets/images/readme/nav.png)
+![navigation_bar](assets/images/readme/nav.webp)
 
 
 #### Home
   - As the background image, we use cover text to welcome to the site.
   - There is a brief introduction and history info.
   
-![home_page](assets/images/readme/home.png)
+![home_page](assets/images/readme/home.webp)
 
 
 #### Variety
   * This page display the most commun potatoes types.
 
-![variety_page](assets/images/readme/variety.png)
+![variety_page](assets/images/readme/variety.webp)
 
 
 #### Recipes
   * Recipes using potatoe as first protagonist.
   *This page introduce the chef of the month with a daily different recipe per day, that includes: Appetizer, Soup, Dinner, Dessert and Drink.
 
-![recipes_page](assets/images/readme/recipes.png)
+![recipes_page](assets/images/readme/recipes.webp)
 
 
 #### Booking
@@ -186,7 +186,7 @@ _Main color palette_
   - _Tools:_ some technological tools that I am familiar with.
   - _Tech Languages:_ these are some tech languages that I have some basic understanding of and have started to learn deeper with the Code Institute.
 
-![Booking_page](assets/images/readme/booking.png)
+![Booking_page](assets/images/readme/booking.webp)
 
 
 #### Contact
@@ -194,13 +194,13 @@ _Main color palette_
   - On the left-hand side, there is a picture of me, which will help the user remember who I am if they see me in an interview. Below the profile image, my name (first and last names), what positions I am currently capable of, my email address, my mobile number and my postal address are listed. 
   - On the left-hand side, a form is given where the users will have the ability to contact me directly by entering their name and email address along with a message. The user will be asked to include their first name, last name, email, and message. The submit and reset buttons are placed at the end of the form.
 
-![contact_section](assets/images/readme/contact.png)
+![contact_section](assets/images/readme/contact.webp)
 
 
 #### Footer
   - This section includes the social media links.
 
-![footer](assets/images/readme/footer.png)
+![footer](assets/images/readme/footer.webp)
 
 
 ### Features Left to Implement
@@ -245,11 +245,12 @@ Towards the future,
     - Webaim Contrast Checker.
 13. Lighthouse by Google-Inspect
     - Generate a Lighthouse report by Google: Performance, Accesibility, Best Practices, and SEO.
-
 14. W3C MArkup Validator
     -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 15. W3C CSS Validator
     -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+16. Sqoosh App to resize or compress image files
+    -   [Sqoosh app](https://squoosh.app/)
 
 
 ## Testing
