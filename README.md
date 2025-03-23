@@ -28,8 +28,8 @@
     - [Acknowledgements](#acknowledgements)
 
 ## Demo
-![resp-home](assets/images/readme/resp-home.webp)
-![resp-recipes](assets/images/readme/resp-recipes.webp)
+![Responsive devices -home](assets/images/readme/resp-home.webp)
+![Responsive devices -recipes](assets/images/readme/resp-recipes.webp)
 
 
 ### A live demo to the website can be found [here](https://cynthiapinedoh79.github.io/Potato-P1-/)
@@ -251,6 +251,8 @@ Towards the future,
     -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 16. Sqoosh App to resize or compress image files
     -   [Sqoosh app](https://squoosh.app/)
+17. Youtube
+    -   [Youtube](https://www.youtube.com/)
 
 
 ## Testing
@@ -404,7 +406,10 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 
 ## Credits
-* Code Institute for example exercises.
+* Code Institute
+* Inspiration from [Potatoegoodness](https://potatogoodness.com/)
+* Peru: Instagram and website [peru.travel](https://www.peru.travel/es/masperu/papa)
+* Great Big Story - Channel from Youtube [youtube](hhttps://www.youtube.com/watch?v=p9qWJ89m-hY)
 * pamperedchef.com
 * olivado.com
 * cuban-recipes/boniatillo
