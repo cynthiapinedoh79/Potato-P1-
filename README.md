@@ -133,7 +133,14 @@ The wireframe is designed using Balsamiq software.
 ### 5. Surface
 To create a pleasing and understandable view, I opt for natural colors such as earth, green, and a range of tones that complement and contrast each other.
 
-[Tested the contrast](https://webaim.org/resources/linkcontrastchecker/)
+*Webaim
+[Tested the contrast](https://webaim.org/resources/contrastchecker/)
+![](assets/images/readme/rcc1.webp)
+![](assets/images/readme/rcc2.webp)
+![](assets/images/readme/rcc3.webp)
+![](assets/images/readme/rcc4.webp)
+![](assets/images/readme/rcc5.webp)
+![](assets/images/readme/rcc6.webp)
 
 _Main color palette_
 

@@ -5,19 +5,19 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Lato", cursive;
-    --primary-color: #7e625a;
+    --primary-color: #2c2321;
     /* dark brown */
-    --secondary-color: #cda37c;
+    --secondary-color: #d1aa85;
     /* Medium brown */
-    --third-color: #f4dbc8;
+    --third-color: #f9e9dc;
     /* light brown */
     --highlight-color: #56701d;
     /* Green */
     --highlight-color-light: #d8e1c7;
     /* light green */
-    --bg-review-card: #f0e6c5;
+    --bg-review-card: #f6f1df;
     /* very light sand */
-    --contact-header-color: #a47a53;
+    --contact-header-color: #614833;
 }
 
 /* Global styles */
@@ -313,7 +313,7 @@ h1.display-4#h-recipes {
 #sa-recipe label {
     display: inline-block;
     cursor: pointer;
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
     font-weight: 400;
 }
 
@@ -345,7 +345,7 @@ h1.display-4#h-recipes {
 }
 
 #sa-recipe h3.sub-heading-color {
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
 }
 
 #sa-recipe .card-body {
@@ -377,7 +377,7 @@ h1.display-4#h-recipes {
 #ss-recipe label {
     display: inline-block;
     cursor: pointer;
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
     font-weight: 400;
 }
 
@@ -409,7 +409,7 @@ h1.display-4#h-recipes {
 }
 
 #ss-recipe h3.sub-heading-color {
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
 }
 
 #ss-recipe .card-body {
@@ -441,7 +441,7 @@ h1.display-4#h-recipes {
 #ssa-recipe label {
     display: inline-block;
     cursor: pointer;
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
     font-weight: 400;
 }
 
@@ -473,7 +473,7 @@ h1.display-4#h-recipes {
 }
 
 #ssa-recipe h3.sub-heading-color {
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
 }
 
 #ssa-recipe .card-body {
@@ -506,7 +506,7 @@ h1.display-4#h-recipes {
 #sd-recipe label {
     display: inline-block;
     cursor: pointer;
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
     font-weight: 400;
 }
 
@@ -538,7 +538,7 @@ h1.display-4#h-recipes {
 }
 
 #sd-recipe h3.sub-heading-color {
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
 }
 
 #sd-recipe .card-body {
@@ -571,7 +571,7 @@ h1.display-4#h-recipes {
 #sde-recipe label {
     display: inline-block;
     cursor: pointer;
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
     font-weight: 400;
 }
 
@@ -603,7 +603,7 @@ h1.display-4#h-recipes {
 }
 
 #sde-recipe h3.sub-heading-color {
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
 }
 
 #sde-recipe .card-body {
@@ -636,7 +636,7 @@ h1.display-4#h-recipes {
 #sdr-recipe label {
     display: inline-block;
     cursor: pointer;
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
     font-weight: 400;
 }
 
@@ -668,7 +668,7 @@ h1.display-4#h-recipes {
 }
 
 #sdr-recipe h3.sub-heading-color {
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
 }
 
 #sdr-recipe .card-body {
@@ -735,7 +735,8 @@ h1.display-4#h-booking {
 #booking h3 {
     font-family: var(--secondary-font);
     font-weight: 400;
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
+    );
 }
 
 #booking .fa-calendar {
