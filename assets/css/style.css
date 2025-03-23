@@ -176,7 +176,7 @@ h1.display-4#h-history {
 }
 
 .img-ch {
-    height: 325px;
+    height: 340px;
 }
 
 #history .card-footer {
@@ -198,6 +198,16 @@ img.card-img-top {
 #history div.card-body {
     background-color: #fff7f0;
 }
+
+#h-video iframe{
+    width: 100%;
+    height: 325px;
+    justify-content: center;
+}
+
+/* History ending */
+
+
 
 /* Nutritional section */
 
@@ -887,6 +897,12 @@ footer {
         height: 550px;
     }
 
+    #h-video iframe{
+        width: 100%;
+        height: 400px;
+        justify-content: center;
+    }
+
 }
 
     @media screen and (min-width: 992px) {
@@ -898,6 +914,12 @@ footer {
 
         .img-ch {
             height: 375px;
+        }
+
+        #h-video iframe{
+            width: 100%;
+            height: 550px;
+            justify-content: center;
         }
 
         #variety .card-body {
@@ -926,6 +948,12 @@ footer {
 
         .img-ch {
             height: 400px;
+        }
+
+        #h-video iframe{
+            width: 100%;
+            height: 450px;
+            justify-content: center;
         }
 
         #variety .card-body {
@@ -961,6 +989,12 @@ footer {
 
         .img-ch {
             height: 400px;
+        }
+
+        #h-video iframe{
+            width: 100%;
+            height: 550px;
+            justify-content: center;
         }
 
         #variety .card-body {
