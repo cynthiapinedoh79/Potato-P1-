@@ -28,9 +28,15 @@
     - [Acknowledgements](#acknowledgements)
 
 ## Demo
-![Responsive devices -home](assets/images/readme/resp-home.webp)
-![Responsive devices -recipes](assets/images/readme/resp-recipes.webp)
+![Responsive devices -home](assets/images/readme/resp-h.webp)
 
+![Responsive devices -home](assets/images/readme/resp-v.webp)
+
+![Responsive devices -home](assets/images/readme/resp-r1.webp)
+
+![Responsive devices -home](assets/images/readme/resp-r2.webp)
+
+![Responsive devices -recipes](assets/images/readme/resp-b.webp)
 
 ### A live demo to the website can be found [here](https://cynthiapinedoh79.github.io/Potato-P1-/)
 
