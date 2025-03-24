@@ -1,26 +1,25 @@
-/*Google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 
-/* CSS Variables */
+
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Lato", cursive;
     --primary-color: #2c2321;
-    /* dark brown */
+
     --secondary-color: #d1aa85;
-    /* Medium brown */
+
     --third-color: #f9e9dc;
-    /* light brown */
+
     --highlight-color: #56701d;
-    /* Green */
+
     --highlight-color-light: #d8e1c7;
-    /* light green */
+
     --bg-review-card: #f6f1df;
-    /* very light sand */
+
     --contact-header-color: #614833;
 }
 
-/* Global styles */
+
 
 body {
     font-family: var(--primary-font);
@@ -52,12 +51,13 @@ h2 {
     margin-bottom: 2rem;
 }
 
-/* Navbar */
+
+
 
 #navbar {
-    position:fixed;
-    top:0;
-    width:100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
     z-index: 1000;
     padding: 0;
     margin-bottom: 20px;
@@ -99,10 +99,10 @@ button:hover {
 }
 
 
-/* Header */
+
 
 #header {
-padding-top: 3.5rem;
+    padding-top: 3.5rem;
 }
 
 #header .lead {
@@ -128,10 +128,10 @@ p.lead.display-7.sub-heading-color {
 }
 
 
-/* Home header section */
+
 
 #img-bcg {
-    height: 600px;
+    height: 575px;
     width: 100%;
     background: url("../images/home/img-bcg.jpg") no-repeat center center/cover;
     position: relative;
@@ -155,7 +155,6 @@ p.lead.display-7.sub-heading-color {
 }
 
 #cover-text {
-    /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: #99161694;
     font-size: 120%;
     position: absolute;
@@ -167,10 +166,9 @@ p.lead.display-7.sub-heading-color {
 }
 
 #cover-text p {
-    color:#f3cfb1;
+    color: #f3cfb1;
 }
 
-/* History */
 h1.display-4#h-history {
     font-family: var(--secondary-font);
     font-weight: 400;
@@ -201,15 +199,15 @@ img.card-img-top {
     background-color: #fff7f0;
 }
 
-#h-video iframe{
+#h-video iframe {
     width: 100%;
     height: 325px;
     justify-content: center;
 }
 
-/* History ending */
 
-/* Variety section */
+
+
 h1.display-4#h-variety {
     font-weight: 400;
     padding: 5px 0 30px 0;
@@ -238,13 +236,13 @@ h1.display-4#h-variety {
     border: none;
 }
 
-#v-video iframe{
+#v-video iframe {
     width: 100%;
     height: 325px;
     justify-content: center;
 }
 
-/* Nutritional section */
+
 
 #nutritional {
     text-align: left;
@@ -257,7 +255,7 @@ h1.display-4#h-variety {
     --bs-card-bg: none;
 }
 
-/*Recipes Page*/
+
 h1.display-4#h-recipes {
     font-weight: 400;
     padding: 5px 0 30px 0;
@@ -294,7 +292,7 @@ h1.display-4#h-recipes {
     border-radius: 10px;
 }
 
-/*Appetaizer*/
+
 
 #sa-recipe li {
     color: var(--primary-color);
@@ -359,7 +357,7 @@ h1.display-4#h-recipes {
     border-radius: 5px;
 }
 
-/* Soup */
+
 #ss-recipe li {
     color: var(--primary-color);
     font-size: medium;
@@ -423,7 +421,7 @@ h1.display-4#h-recipes {
     border-radius: 5px;
 }
 
-/* Salad */
+
 #ssa-recipe li {
     color: var(--primary-color);
     font-size: medium;
@@ -487,7 +485,7 @@ h1.display-4#h-recipes {
     border-radius: 5px;
 }
 
-/* Dinner */
+
 
 #sd-recipe li {
     color: var(--primary-color);
@@ -552,7 +550,7 @@ h1.display-4#h-recipes {
     border-radius: 5px;
 }
 
-/* Dessert */
+
 
 #sde-recipe li {
     color: var(--primary-color);
@@ -617,7 +615,7 @@ h1.display-4#h-recipes {
     border-radius: 5px;
 }
 
-/* Drink */
+
 
 #sdr-recipe li {
     color: var(--primary-color);
@@ -683,7 +681,7 @@ h1.display-4#h-recipes {
 }
 
 
-/*Contact Section*/
+
 #contact {
     background-color: var(--third-color);
     color: var(--primary-color);
@@ -726,7 +724,7 @@ h1.display-4#h-recipes {
     font-size: 110%;
 }
 
-/* Booking */
+
 h1.display-4#h-booking {
     font-family: var(--secondary-font);
     font-weight: 400;
@@ -807,14 +805,14 @@ address {
 }
 
 #f-r span {
-    color: red;
+    color: #9a0000;
     font-size: smaller;
 }
 
-/* Booking Ending*/
 
 
-/* Google Map*/
+
+
 .map-container {
     overflow: hidden;
     padding-bottom: 56.25%;
@@ -835,15 +833,15 @@ address {
     border: 0;
 }
 
-/* Google Map Ending*/
 
 
-/*success message*/
+
+
 #success a.btn.btn-primary.mb-5 {
     --bs-btn-color: var(--primary-color);
 }
 
-/* Footer */
+
 footer {
     background-color: var(--primary-color);
     padding-bottom: 0;
@@ -871,24 +869,12 @@ footer {
 }
 
 
-/* grid visualisation CSS for testing */
-/*
-.container,
-.row {
-    border: 2px solid black;
-}
 
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
-/* Media queries */
 
-/* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Make all service cards the same height for consistency*/
+
     #history .card-body {
         min-height: 270px;
     }
@@ -905,13 +891,13 @@ footer {
         height: 550px;
     }
 
-    #h-video iframe{
+    #h-video iframe {
         max-width: 100%;
         height: 400px;
         justify-content: center;
     }
 
-    #v-video iframe{
+    #v-video iframe {
         max-width: 100%;
         height: 400px;
         justify-content: center;
@@ -919,143 +905,143 @@ footer {
 
 }
 
-    @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
 
-        /* Make all service cards the same height for consistency*/
-        #history .card-body {
-            min-height: 200px;
-        }
 
-        .img-ch {
-            height: 375px;
-        }
-
-        #h-video iframe{
-            max-width: 100%;
-            height: 550px;
-            justify-content: center;
-        }
-
-        #v-video iframe{
-            max-width: 100%;
-            height: 550px;
-            justify-content: center;
-        }
-
-        #variety .card-body {
-            min-height: 200px;
-        }
-
-        #social-networks {
-            padding: 25px 100px;
-        }
-
-        #h-variety img {
-            height: 650px;
-        }
-    
-        #nu-variety img {
-            height: 650px;
-        }
+    #history .card-body {
+        min-height: 200px;
     }
 
-    @media screen and (min-width: 1200px) {
-
-        /* Make all service cards the same height for consistency*/
-        #history .card-body {
-            min-height: 275px;
-        }
-
-        .img-ch {
-            height: 400px;
-        }
-
-        #h-video iframe{
-            max-width: 100%;
-            height: 500px;
-            justify-content: center;
-        }
-
-
-        #v-video iframe{
-            max-width: 100%;
-            height: 500px;
-            justify-content: center;
-        }
-
-        #variety .card-body {
-            min-height: 350px;
-        }
-
-        #h-variety img{
-            height: 600px;
-            padding-left: 10px;
-        }
-
-
-        #nu-variety img {
-            height: 575px;
-            padding-left: 20px;
-        }
-
-        #h-recipes img{
-            height: 500px;
-            padding-left: 100px;
-        }
-
-        #social-networks {
-            padding: 25px 125px;
-        }
+    .img-ch {
+        height: 375px;
     }
 
-    @media screen and (min-width: 1400px) {
-
-        /* Make all service cards the same height for consistency*/
-        #history .card-body {
-            min-height: 220px;
-        }
-
-        .img-ch {
-            height: 400px;
-        }
-
-        #h-video iframe{
-            max-width: 100%;
-            height: 550px;
-            justify-content: center;
-        }
-
-        #v-video iframe{
-            max-width: 100%;
-            height: 550px;
-            justify-content: center;
-        }
-
-        #variety .card-body {
-            min-height: 270px;
-        }
-
-        #h-variety img{
-            height: 600px;
-            padding-left: 30px;
-        }
-
-        #nu-variety img {
-            height: 600px;
-            padding-left: 30px;
-        }
-
-        #srecipes .card {
-            min-height: 925px;
-        }
-
-        #h-recipes img{
-            height: 500px;
-            padding-left: 100px;
-        }
-
-        #social-networks {
-            padding: 25px 125px;
-        }
-
+    #h-video iframe {
+        max-width: 100%;
+        height: 550px;
+        justify-content: center;
     }
+
+    #v-video iframe {
+        max-width: 100%;
+        height: 550px;
+        justify-content: center;
+    }
+
+    #variety .card-body {
+        min-height: 200px;
+    }
+
+    #social-networks {
+        padding: 25px 100px;
+    }
+
+    #h-variety img {
+        height: 650px;
+    }
+
+    #nu-variety img {
+        height: 650px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+
+    #history .card-body {
+        min-height: 275px;
+    }
+
+    .img-ch {
+        height: 400px;
+    }
+
+    #h-video iframe {
+        max-width: 100%;
+        height: 500px;
+        justify-content: center;
+    }
+
+
+    #v-video iframe {
+        max-width: 100%;
+        height: 500px;
+        justify-content: center;
+    }
+
+    #variety .card-body {
+        min-height: 350px;
+    }
+
+    #h-variety img {
+        height: 600px;
+        padding-left: 10px;
+    }
+
+
+    #nu-variety img {
+        height: 575px;
+        padding-left: 20px;
+    }
+
+    #h-recipes img {
+        height: 500px;
+        padding-left: 100px;
+    }
+
+    #social-networks {
+        padding: 25px 125px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+
+    #history .card-body {
+        min-height: 220px;
+    }
+
+    .img-ch {
+        height: 400px;
+    }
+
+    #h-video iframe {
+        max-width: 100%;
+        height: 550px;
+        justify-content: center;
+    }
+
+    #v-video iframe {
+        max-width: 100%;
+        height: 550px;
+        justify-content: center;
+    }
+
+    #variety .card-body {
+        min-height: 270px;
+    }
+
+    #h-variety img {
+        height: 600px;
+        padding-left: 30px;
+    }
+
+    #nu-variety img {
+        height: 600px;
+        padding-left: 30px;
+    }
+
+    #srecipes .card {
+        min-height: 925px;
+    }
+
+    #h-recipes img {
+        height: 500px;
+        padding-left: 100px;
+    }
+
+    #social-networks {
+        padding: 25px 125px;
+    }
+
+}
