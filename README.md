@@ -116,7 +116,8 @@ The website is designed with 4 pages, with fixed top navigation and redirection 
 The website is designed to be clear and simple. And the site has a simple tree structure with hierarchical flows from top to bottom.
 
 **Wireframe**
-The wireframe is designed using Balsamiq software.
+The wireframe is designed using Balsamiq software 
+[Balsamic](https://balsamiq.cloud/s45whoh/p56wz1i/r2278)
 
 #### Home
 ![Home](assets/images/readme/wh.png)
@@ -245,7 +246,7 @@ Towards the future,
 9. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to create the logo, resizing images and editing photos for the website.
 10. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes]("https://balsamiq.cloud/s45whoh/p56wz1i/r2278") during the design process.
+    - Balsamiq was used to create the [wireframes](https://balsamiq.cloud/s45whoh/p56wz1i/r2278) during the design process.
 11. [Responsive Screenshots](https://ui.dev/amiresponsive)
     - To able to get responsive screenshoots from different devices.
 12. [Contrast Checker](https://webaim.org/resources/linkcontrastchecker/?fcolor=CDA37C&bcolor=FFFF00)
@@ -305,7 +306,12 @@ CSS code passed through the official (Jigsaw) W3C validator with no errors.
 
   
 * **Accessibility**
-  I confirmed that the colors and fonts chosen are easy to read and accessible by running it through ![Lighthouse DevTools](assets/images/readme/lighthouse.webp)
+  * Lighthouse DevTools by Google
+
+  ![Lighthouse DevTools Home](assets/images/readme/hlh.webp)
+  ![Lighthouse DevTools Variety](assets/images/readme/vlh.webp)
+  ![Lighthouse DevTools Recipes](assets/images/readme/rlh.webp)
+  ![Lighthouse DevTools Booking](assets/images/readme/blh.webp)
 
   ### Testing User Stories from User Experience (UX) Section
 

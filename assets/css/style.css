@@ -114,14 +114,14 @@ h2.display-6 {
 p.lead.display-6.sub-heading-color {
     font-family: var(--secondary-font);
     font-weight: bold;
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
     padding-bottom: 20px;
 }
 
 p.lead.display-7.sub-heading-color {
     font-family: var(--secondary-font);
     font-weight: 600;
-    color: var(--secondary-color);
+    color: var(--contact-header-color);
     padding-bottom: 0px;
 }
 
@@ -207,21 +207,6 @@ img.card-img-top {
 
 /* History ending */
 
-
-
-/* Nutritional section */
-
-#nutritional {
-    text-align: left;
-    background-color: var(--highlight-color-light);
-}
-
-#nutritional .card {
-    --bs-card-border-color: none;
-    margin-bottom: 1.5rem;
-    --bs-card-bg: none;
-}
-
 /* Variety section */
 h1.display-4#h-variety {
     font-weight: 400;
@@ -255,6 +240,19 @@ h1.display-4#h-variety {
     width: 100%;
     height: 325px;
     justify-content: center;
+}
+
+/* Nutritional section */
+
+#nutritional {
+    text-align: left;
+    background-color: var(--highlight-color-light);
+}
+
+#nutritional .card {
+    --bs-card-border-color: none;
+    margin-bottom: 1.5rem;
+    --bs-card-bg: none;
 }
 
 /*Recipes Page*/
@@ -736,7 +734,6 @@ h1.display-4#h-booking {
     font-family: var(--secondary-font);
     font-weight: 400;
     color: var(--contact-header-color);
-    );
 }
 
 #booking .fa-calendar {
@@ -905,13 +902,13 @@ footer {
     }
 
     #h-video iframe{
-        width: 100%;
+        max-width: 100%;
         height: 400px;
         justify-content: center;
     }
 
     #v-video iframe{
-        width: 100%;
+        max-width: 100%;
         height: 400px;
         justify-content: center;
     }
@@ -930,13 +927,13 @@ footer {
         }
 
         #h-video iframe{
-            width: 100%;
+            max-width: 100%;
             height: 550px;
             justify-content: center;
         }
 
         #v-video iframe{
-            width: 100%;
+            max-width: 100%;
             height: 550px;
             justify-content: center;
         }
@@ -970,14 +967,14 @@ footer {
         }
 
         #h-video iframe{
-            width: 100%;
+            max-width: 100%;
             height: 500px;
             justify-content: center;
         }
 
 
         #v-video iframe{
-            width: 100%;
+            max-width: 100%;
             height: 500px;
             justify-content: center;
         }
@@ -1019,13 +1016,13 @@ footer {
         }
 
         #h-video iframe{
-            width: 100%;
+            max-width: 100%;
             height: 550px;
             justify-content: center;
         }
 
         #v-video iframe{
-            width: 100%;
+            max-width: 100%;
             height: 550px;
             justify-content: center;
         }
